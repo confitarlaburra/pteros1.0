@@ -1,0 +1,71 @@
+#Installation
+
+You need to have the pteros library installed:
+
+http://pteros.sourceforge.net/
+
+to compile:
+
+add in Makefile:
+
+g++  program/your_program -I/home/jgarate/opt/pteros/include -L/home/jgarate/opt/pteros/lib/ -lpteros -lpteros_analysis -ltng_io -std=c++11 -o outname
+
+% make
+
+#Programs:
+Length units are in nanometers!!!
+
+MSDcyl_SRV_DSTY: Computes MSD,survival probability of selection within a cylinder aligned in z.
+
+% MSDcyl_SRV_DSTY -f ../ref.pdb ../traj_1.dcd ... -b 0fr -e 10000fr -sel "sel" -min_z -1.2 -max_z 1.2 -rad 0.4  -win 1000 -ref_sel "ref sel" -dim z 
+
+-f       = reference pdb and trajectories 
+-b       = inital frame
+-e       = final frame
+-sel     = selected atoms for MSD, survival prob and density
+-min_z   = min z coor of cylinder
+-max_z   = max z coor of cylinder
+-rad     = radius of cylinder
+-win     = windows employed for calculation
+-ref_sel = reference selection for fitting
+-dim     = dimensions to be considered for msd, e.g. z or z y or z y x  (in any order)
+
+It is advisable to wrap trajectories centered along the cylinder:
+in vvmd for a dcd:
+%pbc wrap -center com -centersel "resname CNT" -all
+
+
+
+MSDsph_SRV_DSTY: Computes MSD,survival probability of selection within a sphere centered in 0.0.0
+
+% MSDcyl_SRV_DSTY -f ../ref.pdb ../traj_1.dcd ... -b 0fr -e 10000fr -sel "sel" -min_z -1.2 -max_z 1.2 -rad 0.4  -win 1000 -ref_sel "ref sel" -dim z 
+
+-f       = reference pdb and trajectories 
+-b       = inital frame
+-e       = final frame
+-sel     = selected atoms for MSD, survival prob and density
+-rad     = radius of sphere
+-win     = windows employed for calculation
+-ref_sel = reference selection for fitting
+-dim     = dimensions to be considered for msd, e.g. z or z y or z y x  (in any order)
+
+It is advisable to wrap trajectories centered along the sphere:
+in vvmd for a dcd:
+%pbc wrap -center com -centersel "resname CNT" -all
+
+
+MSDbox_DSTY: Computes MSD for particles in a box
+
+% MSDbox_DSTY -f ../ref.pdb ../traj_1.dcd ... -b 0fr -e 10000fr -sel "name OH2" -win 60  -dim  z y x -box 2.28 2.28 2.28
+
+-f       = reference pdb and trajectories 
+-b       = inital frame
+-e       = final frame
+-sel     = selected atoms for MSD, survival prob and density
+-win     = windows employed for calculation
+-dim     = dimensions to be considered for msd, e.g. z or z y or z y x  (in any order)
+-box     = orthorombic box dimensions in x,y and z (in this order!!!) , system must be centered at origin.
+
+It is advisable to unwrap trajectories previous to run this program
+in vmd for a dcd:
+%pbc unwrap -all
