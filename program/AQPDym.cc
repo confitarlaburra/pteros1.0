@@ -21,8 +21,8 @@ int main(int argc, char** argv){
 
     
    //Selection fitA();
-
-    MSD_cyl msdCylA(&proc,options,selFitA);
+    
+    MSD_cyl msdCylA(&proc,options,selFitA,string("A"));
     //MSD_cyl msdCylB(&proc,options,options("fitFrame").as_ints()[1]);
     //MSD_cyl msdCylC(&proc,options,options("fitFrame").as_ints()[2]);
     //MSD_cyl msdCylD(&proc,options,options("fitFrame").as_ints()[3]);

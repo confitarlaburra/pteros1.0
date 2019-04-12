@@ -11,9 +11,10 @@ using namespace Eigen;
 class MSD_cyl: public Consumer {
  public:
   //Constructor
- MSD_cyl( Trajectory_processor* pr, Options & _options, Selection & _selFitOld ): Consumer(pr){
+ MSD_cyl( Trajectory_processor* pr, Options & _options, Selection & _selFitOld, const string& _id=string() ): Consumer(pr){
     options=_options;
     selFitOld=_selFitOld;
+    id=_id;
   }
  protected:
 
@@ -29,8 +30,8 @@ class MSD_cyl: public Consumer {
   Selection selFit;
   Selection selFitOld;
   Options options;
+  string id;
   int window;
-  int refFrame;
   int ndim = 3;
   int frames =0;
   int dim[3] = {0, 1, 2};
@@ -39,5 +40,6 @@ class MSD_cyl: public Consumer {
   float maxZ;
   vector<vector<Vector3f> > position;
   vector<vector <bool> > in_out;
+  vector<vector<int > >loads_in_time;
 };
 #endif 
