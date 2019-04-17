@@ -11,7 +11,7 @@ void MSD_cyl::pre_process()  {
   position.resize(MSDsel.size());
   in_out.resize(MSDsel.size());
   if (options.has("selFit"))  
-    selFit.modify(system,options("selFit").as_string());
+    selFit.modify(system,id);
   cout<<"MSDcyl "<<id<<" pre process: "<<"pore "<<id<<endl;
   cout<<"Windows: "<<window<<endl;
   cout<<"Radius2: "<<rad2<<endl;
@@ -22,7 +22,7 @@ void MSD_cyl::pre_process()  {
   frames=0;
   set_dimensions();
   if (selFit.size()) {
-    cout<<"Reference selection: "<<options("selFit").as_string()<<endl;
+    cout<<"Reference selection: "<<id<<endl;
     cout<<"Reference selection size: "<<selFit.size()<<endl;
   } else {
     cout<<"Warning: reference selection empty,"
@@ -30,7 +30,7 @@ void MSD_cyl::pre_process()  {
   }
 }
 
-void MSD_cyl::process_frame(const Frame_info& info)  {
+void MSD_cyl::process_frame(const Frame_info& info) {
   if (selFit.size()) {
     Affine3f trans = fit_transform(selFit,selFitOld);
     Selection(system,"all").apply_transform(trans);
@@ -44,10 +44,8 @@ void MSD_cyl::process_frame(const Frame_info& info)  {
   frames++;
 }
 
-void MSD_cyl::post_process(const Frame_info& info)  {
-
-  
-  //calculate_MSD();
+void MSD_cyl::post_process(const Frame_info& info) {
+  calculate_MSD();
 }
 
 
@@ -67,7 +65,7 @@ void MSD_cyl::collect_pos() {
 }
 
 void MSD_cyl::calculate_MSD() {
-  cout<<"#\tNow computing MSD for "<<frames<<" frames..."<<endl;
+  cout<<"#\tNow computing MSD for "<<id<<" for "<<frames<<" frames..."<<endl;
   //1d vector to store msd
   vector<double> MSD_list(window,0.0);
   //1d vector to count for averaging
@@ -77,8 +75,11 @@ void MSD_cyl::calculate_MSD() {
   outputL.precision(3);
   outputL<<"#Numer of loaded "<<options("sel").as_string()<<endl;
   outputL<<"#Frame          #N"<<endl;
-  for(int it = 0; it < frames-window; it++) {
+  for(int it = 0; it < frames; it++) {
     outputL<<setw(15)<<it<<setw(15)<<loads_in_time[it].size()<<endl;
+  }
+  outputL.close();
+  for(int it = 0; it < frames-window; it++) {
     int window_counter = 0;
     double square_d = 0;
     for(int j = it; j < it+window; j++) { //second loop through frames starting from origin "it"  
@@ -97,7 +98,6 @@ void MSD_cyl::calculate_MSD() {
       window_counter++;
     }
   }
-  outputL.close();
   outName = "msd"+id+".dat";
   ofstream output(outName);
   output << "# Time series of the mean square displacement\n"
@@ -107,7 +107,6 @@ void MSD_cyl::calculate_MSD() {
   output<<"#Frame          <MSD>"<<endl;
   float t =0.0;
   output.precision(3);
-  output<<setw(15)<<t<<setw(15)<<t<<endl;
   for(int i = 0; i < MSD_list.size(); i++) { 
     output<<setw(15)<<i<<setw(15)<<(MSD_list[i]/average_counter[i])<<endl;
   }

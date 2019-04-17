@@ -14,7 +14,7 @@ class MSD_cyl: public Consumer {
  MSD_cyl( Trajectory_processor* pr, Options & _options, Selection & _selFitOld, const string& _id=string() ): Consumer(pr){
     options=_options;
     selFitOld=_selFitOld;
-    id=_id;
+    id=_id; // same selectio as selFitOld
   }
  protected:
 
