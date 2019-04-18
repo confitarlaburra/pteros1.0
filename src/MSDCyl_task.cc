@@ -1,6 +1,4 @@
-#include "MSD_task.h"
-
-
+#include "MSDCyl_task.h"
 
 void MSD_cyl::pre_process()  {
   rad2=options("rad").as_float()*options("rad").as_float();
