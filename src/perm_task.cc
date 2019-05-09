@@ -65,42 +65,20 @@ void pf_cyl::collect_n() {
   dnList.push_back(dn);
   n += dn;
   nList.push_back(n);
-  if (n-nOld <=-1) {
-    nOld=n;
-    down++;
-  }
-  downList.push_back(down);
-  if (n-nOld >= 1) {
-    nOld=n;
-    up++;
-  }
-  upList.push_back(up);
 }
 
 void pf_cyl::calculate_MSD() {
   cout<<"#\tNow computing MSD(pf) for "<<id<<" for "<<frames<<" frames..."<<endl;
   string outName = "n(t)."+id+".dat";
-  ofstream output(outName);
-  output.precision(3);
-  output<<"#Trajectory of collective  "<<options("sel").as_string()<<endl;
-  output<<"#Frame          #n(t)"<<endl;
+  ofstream outputL(outName);
+  outputL.precision(3);
+  outputL<<"#Trajectory of collective  "<<options("sel").as_string()<<endl;
+  outputL<<"#Frame          #n(t)"<<endl;
   for(int it = 0; it < frames; it++) {
-    output<<setw(15)<<it<<setw(15)<<nList[it]<<endl;
+    outputL<<setw(15)<<it<<setw(15)<<nList[it]<<endl;
   }
-  output.close();
+  outputL.close();
 
-  outName = "perm+-t(pf)."+id+".dat";
-  output.open(outName);
-  output.precision(3);
-  output<<"#Cumulative permeation events for  "<<options("sel").as_string()<<endl;
-  output<<"#Frame                      #n+          #n-          #nt"<<endl;
-  for(int it = 0; it < frames; it++) {
-    output<<setw(15)<<it<<setw(15)<<upList[it]<<setw(15)<<downList[it]<<setw(15)<<upList[it]+downList[it]<<endl;
-  }
-  output.close();
-
-
-  
   vector<float> N2List(window,0.0);
   vector<int> averageCounter(window,0);
   float nLoop;
@@ -122,7 +100,7 @@ void pf_cyl::calculate_MSD() {
   }
    
   outName = "N2_msd."+id+".dat";
-  output.open(outName);
+  ofstream output(outName);
   output<<"#Frame   <N2>"<<std::endl;
   output.precision(3);
   for(int i = 0; i < N2List.size(); i++) {

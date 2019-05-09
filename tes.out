@@ -1,0 +1,10 @@
+Starting trajectory processing...
+Connected 5 consumers
+==> Reading trajectory ../test_MD/AQP4.1000.dcd
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+(ERROR) In consumer #4:
+Syntax error in selection! Somewhere after position 1:
+0
+^
+

@@ -11,11 +11,18 @@ using namespace Eigen;
 class MSD_cyl: public Consumer {
  public:
   //Constructor
- MSD_cyl( Trajectory_processor* pr, Options & _options, Selection & _selFitOld, const string& _id=string() ): Consumer(pr){
+ MSD_cyl( Trajectory_processor* pr, Options & _options, const Selection &  _selFitOld, const string& _id ): Consumer(pr){
     options=_options;
     selFitOld=_selFitOld;
     id=_id; // same selectio as selFitOld
   }
+
+ MSD_cyl( Trajectory_processor* pr, Options & _options, const Selection  & _selFitOld  ): Consumer(pr){
+    options=_options;
+    selFitOld=_selFitOld;
+  }
+
+  
  protected:
 
   virtual void pre_process();
@@ -30,7 +37,7 @@ class MSD_cyl: public Consumer {
   Selection selFit;
   Selection selFitOld;
   Options options;
-  string id;
+  string id="all";
   int window;
   int ndim = 3;
   int frames =0;

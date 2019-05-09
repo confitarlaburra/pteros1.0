@@ -34,7 +34,7 @@ class pf_cyl: public Consumer {
   Selection selFit;
   Selection selFitOld;
   Options options;
-  string id="all";
+  string id="0";
   int window;
   int frames =0;
   float rad2;
@@ -45,13 +45,8 @@ class pf_cyl: public Consumer {
   float dz=0.0;
   float dn=0.0;
   float n =0.0;
-  float nOld=0.0;
-  int up=0;
-  int down=0;
   vector<Vector3f> posListOld;
   vector<float> dnList;
   vector<float> nList;
-  vector<int>upList;
-  vector<int>downList;
 };
 #endif 

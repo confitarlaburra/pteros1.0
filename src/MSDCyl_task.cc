@@ -59,7 +59,7 @@ void MSD_cyl::collect_pos() {
       in_out[i].push_back(false);
   }
   loads_in_time.push_back(load_indexes);
-  //cout<<load_indexes.size()<<endl;
+  //cout<<" "<<frames<<" "<<id<<load_indexes.size()<<endl;
 }
 
 void MSD_cyl::calculate_MSD() {
@@ -68,7 +68,7 @@ void MSD_cyl::calculate_MSD() {
   vector<double> MSD_list(window,0.0);
   //1d vector to count for averaging
   vector<int> average_counter(window,0);
-  string outName = "Loads"+id+".dat";
+  string outName = "Loads."+id+".dat";
   ofstream outputL(outName);
   outputL.precision(3);
   outputL<<"#Numer of loaded "<<options("sel").as_string()<<endl;
@@ -96,7 +96,7 @@ void MSD_cyl::calculate_MSD() {
       window_counter++;
     }
   }
-  outName = "msd"+id+".dat";
+  outName = "msd."+id+".dat";
   ofstream output(outName);
   output << "# Time series of the mean square displacement\n"
 	 << "# Here the calculation uses a double loop scheme:" << endl

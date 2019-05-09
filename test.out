@@ -1,0 +1,5067 @@
+Starting trajectory processing...
+Connected 5 consumers
+==> Reading trajectory ../test_MD/AQP4.1000.dcd
+dcdplugin) detected standard 32-bit DCD file of native endianness
+dcdplugin) CHARMM format DCD file (also NAMD 2.1 and later)
+MSDcyl chain C pre process: pore chain C
+Windows: 100
+Radius2: 0.09
+minZ: -1
+maxZ: 1
+MSDcyl selection: name OH2
+MSDcyl selection size: 17752
+Considering z dimension for MSD calculation
+Total MSDcyl dimensions to consider: 1
+Reference selection: chain C
+Reference selection size: 3350
+MSDcyl chain D pre process: pore chain D
+Windows: 100
+Radius2: 0.09
+minZ: -1
+maxZ: 1
+MSDcyl selection: name OH2
+MSDcyl selection size: 17752
+Considering z dimension for MSD calculation
+Total MSDcyl dimensions to consider: 1
+Reference selection: chain D
+Reference selection size: 3350
+MSDcyl chain A pre process: pore chain A
+Windows: 100
+Radius2: 0.09
+minZ: -1
+maxZ: 1
+MSDcyl selection: name OH2
+MSDcyl selection size: 17752
+Considering z dimension for MSD calculation
+Total MSDcyl dimensions to consider: 1
+Reference selection: chain A
+Reference selection size: 3350
+MSDcyl chain B pre process: pore chain B
+Windows: 100
+Radius2: 0.09
+minZ: -1
+maxZ: 1
+MSDcyl selection: name OH2
+MSDcyl selection size: 17752
+Considering z dimension for MSD calculation
+Total MSDcyl dimensions to consider: 1
+Reference selection: chain B
+Reference selection size: 3350
+MSDcyl chain A and not water pre process: pore chain A and not water
+Windows: 100
+Radius2: 0.09
+minZ: -1
+maxZ: 1
+MSDcyl selection: name OH2
+MSDcyl selection size: 17752
+Considering z dimension for MSD calculation
+Total MSDcyl dimensions to consider: 1
+Reference selection: chain A and not water
+Reference selection size: 3350
+ 0 chain C5
+ 0 chain D4
+ 1 chain C7
+ 0 chain A6
+ 0 chain B6
+ 0 chain A and not water6
+ 1 chain D5
+ 1 chain A6
+ 2 chain C6
+ 1 chain B6
+ 2 chain D4
+ 1 chain A and not water6
+ 3 chain C6
+ 3 chain D5
+ 2 chain A7
+ 2 chain B6
+ 2 chain A and not water7
+ 3 chain B7
+ 3 chain A5
+ 4 chain D7
+ 3 chain A and not water5
+ 4 chain C7
+ 5 chain D6
+ 4 chain B6
+ 5 chain C6
+ 4 chain A6
+ 6 chain D6
+ 6 chain C6
+ 5 chain A7
+ 5 chain B7
+ 7 chain D6
+ 6 chain A7
+ 4 chain A and not water6
+ 6 chain B6
+ 7 chain C5
+ 7 chain A6
+ 7 chain B6
+ 5 chain A and not water6
+ 6 chain A and not water7
+ 7 chain A and not water6
+ 8 chain D5
+ 8 chain C4
+ 9 chain D5
+ 9 chain C5
+ 8 chain A6
+ 10 chain D7
+ 10 chain C6
+ 8 chain B6
+ 9 chain A4
+ 11 chain C5
+ 11 chain D6
+ 9 chain B5
+ 10 chain A6
+ 12 chain C6
+ 8 chain A and not water5
+ 11 chain A4
+ 13 chain C5
+ 12 chain D5
+ 10 chain B6
+ 9 chain A and not water4
+ 12 chain A5
+ 13 chain D5
+ 14 chain C6
+ 11 chain B5
+ 13 chain A7
+ 10 chain A and not water6
+ 14 chain D7
+ 15 chain C6
+ 12 chain B6
+ 11 chain A and not water4
+ 14 chain A4
+ 15 chain D6
+ 13 chain B6
+ 15 chain A6
+ 12 chain A and not water5
+ 14 chain B6
+ 13 chain A and not water7
+ 15 chain B5
+ 14 chain A and not water4
+ 15 chain A and not water6
+ 16 chain C6
+ 16 chain D6
+ 17 chain C6
+ 16 chain A6
+ 17 chain D5
+ 16 chain B6
+ 18 chain D6
+ 17 chain A6
+ 18 chain C6
+ 18 chain A7
+ 19 chain D6
+ 17 chain B6
+ 19 chain C6
+ 20 chain D6
+ 16 chain A and not water6
+ 19 chain A6
+ 21 chain D4
+ 18 chain B5
+ 20 chain C6
+ 17 chain A and not water6
+ 20 chain A5
+ 22 chain D7
+ 21 chain C6
+ 18 chain A and not water7
+ 19 chain B5
+ 23 chain D6
+ 21 chain A5
+ 22 chain C6
+ 24 chain D5
+ 20 chain B5
+ 19 chain A and not water6
+ 22 chain A6
+ 23 chain C6
+ 20 chain A and not water5
+ 21 chain B6
+ 25 chain D5
+ 23 chain A7
+ 24 chain C6
+ 22 chain B5
+ 24 chain A7
+ 21 chain A and not water5
+ 25 chain C6
+ 26 chain D5
+ 23 chain B7
+ 25 chain A8
+ 22 chain A and not water6
+ 26 chain C7
+ 27 chain D6
+ 24 chain B5
+ 26 chain A7
+ 23 chain A and not water7
+ 28 chain D7
+ 25 chain B5
+ 27 chain A6
+ 27 chain C7
+ 24 chain A and not water7
+ 28 chain A6
+ 29 chain D6
+ 26 chain B6
+ 28 chain C6
+ 25 chain A and not water7
+ 29 chain A5
+ 27 chain B6
+ 30 chain D7
+ 26 chain A and not water7
+ 29 chain C7
+ 30 chain A5
+ 28 chain B5
+ 27 chain A and not water6
+ 31 chain A6
+ 31 chain D6
+ 30 chain C6
+ 29 chain B7
+ 28 chain A and not water6
+ 31 chain C7
+ 30 chain B6
+ 29 chain A and not water5
+ 31 chain B5
+ 30 chain A and not water5
+ 31 chain A and not water6
+ 32 chain A7
+ 33 chain A6
+ 32 chain D6
+ 33 chain D6
+ 32 chain B6
+ 34 chain A6
+ 32 chain C7
+ 34 chain D5
+ 35 chain A5
+ 33 chain B7
+ 35 chain D7
+ 33 chain C6
+ 36 chain A6
+ 34 chain B5
+ 34 chain C6
+ 36 chain D6
+ 37 chain A6
+ 32 chain A and not water7
+ 35 chain B5
+ 38 chain A7
+ 35 chain C6
+ 36 chain B4
+ 37 chain D6
+ 39 chain A7
+ 33 chain A and not water6
+ 36 chain C6
+ 37 chain B6
+ 38 chain D7
+ 40 chain A7
+ 34 chain A and not water6
+ 37 chain C6
+ 38 chain B7
+ 39 chain D6
+ 35 chain A and not water4
+ 39 chain B5
+ 38 chain C6
+ 41 chain A7
+ 36 chain A and not water6
+ 40 chain D7
+ 40 chain B6
+ 42 chain A5
+ 39 chain C5
+ 37 chain A and not water6
+ 41 chain B6
+ 43 chain A6
+ 41 chain D7
+ 40 chain C7
+ 38 chain A and not water7
+ 42 chain B7
+ 42 chain D7
+ 44 chain A7
+ 41 chain C6
+ 39 chain A and not water7
+ 43 chain B6
+ 45 chain A6
+ 43 chain D8
+ 42 chain C7
+ 40 chain A and not water6
+ 44 chain B7
+ 46 chain A6
+ 44 chain D6
+ 43 chain C5
+ 41 chain A and not water7
+ 45 chain B6
+ 47 chain A5
+ 45 chain D5
+ 44 chain C6
+ 42 chain A and not water5
+ 46 chain B6
+ 46 chain D6
+ 48 chain A7
+ 45 chain C6
+ 47 chain B5
+ 43 chain A and not water6
+ 47 chain D6
+ 49 chain A7
+ 46 chain C7
+ 48 chain B8
+ 44 chain A and not water7
+ 48 chain D5
+ 50 chain A6
+ 47 chain C5
+ 49 chain D5
+ 49 chain B7
+ 45 chain A and not water6
+ 51 chain A7
+ 48 chain C5
+ 50 chain D6
+ 50 chain B5
+ 46 chain A and not water6
+ 52 chain A6
+ 49 chain C6
+ 51 chain B6
+ 51 chain D6
+ 47 chain A and not water5
+ 53 chain A6
+ 50 chain C7
+ 52 chain D6
+ 52 chain B6
+ 54 chain A6
+ 48 chain A and not water6
+ 51 chain C5
+ 53 chain D7
+ 53 chain B6
+ 55 chain A5
+ 49 chain A and not water7
+ 52 chain C6
+ 54 chain D6
+ 54 chain B6
+ 53 chain C6
+ 50 chain A and not water6
+ 56 chain A7
+ 51 chain A and not water7
+ 55 chain B7
+ 55 chain D6
+ 57 chain A6
+ 54 chain C6
+ 52 chain A and not water6
+ 56 chain B4
+ 56 chain D6
+ 58 chain A6
+ 55 chain C4
+ 53 chain A and not water6
+ 57 chain B5
+ 56 chain C7
+ 57 chain D6
+ 59 chain A6
+ 54 chain A and not water6
+ 58 chain B5
+ 57 chain C7
+ 60 chain A6
+ 58 chain D7
+ 55 chain A and not water5
+ 59 chain B6
+ 58 chain C6
+ 61 chain A7
+ 59 chain D7
+ 56 chain A and not water7
+ 60 chain B5
+ 59 chain C5
+ 62 chain A8
+ 60 chain D7
+ 57 chain A and not water6
+ 61 chain B6
+ 63 chain A7
+ 60 chain C6
+ 61 chain D7
+ 58 chain A and not water6
+ 62 chain B6
+ 61 chain C6
+ 62 chain D6
+ 59 chain A and not water6
+ 63 chain B7
+ 60 chain A and not water6
+ 62 chain C6
+ 63 chain D6
+ 61 chain A and not water7
+ 63 chain C5
+ 62 chain A and not water8
+ 63 chain A and not water7
+ 64 chain A6
+ 64 chain C5
+ 65 chain A6
+ 65 chain C5
+ 66 chain C5
+ 66 chain A6
+ 64 chain A and not water6
+ 64 chain D7
+ 64 chain B7
+ 67 chain C5
+ 67 chain A6
+ 65 chain A and not water6
+ 65 chain D6
+ 65 chain B7
+ 68 chain A6
+ 68 chain C3
+ 66 chain A and not water6
+ 66 chain D7
+ 66 chain B6
+ 69 chain C6
+ 69 chain A6
+ 67 chain A and not water6
+ 67 chain D6
+ 67 chain B7
+ 70 chain C5
+ 68 chain D5
+ 70 chain A6
+ 68 chain A and not water6
+ 68 chain B7
+ 71 chain C5
+ 69 chain D6
+ 71 chain A7
+ 69 chain A and not water5
+ 69 chain B8
+ 72 chain C6
+ 72 chain A6
+ 70 chain D6
+ 70 chain B6
+ 70 chain A and not water6
+ 73 chain C4
+ 71 chain B5
+ 71 chain D6
+ 73 chain A6
+ 71 chain A and not water7
+ 74 chain C6
+ 72 chain D7
+ 72 chain B6
+ 74 chain A7
+ 75 chain C6
+ 72 chain A and not water6
+ 73 chain D5
+ 73 chain B6
+ 75 chain A7
+ 76 chain C7
+ 74 chain D7
+ 73 chain A and not water6
+ 76 chain A5
+ 74 chain B6
+ 77 chain C6
+ 75 chain D6
+ 74 chain A and not water7
+ 77 chain A5
+ 75 chain B7
+ 78 chain C6
+ 75 chain A and not water7
+ 76 chain D6
+ 76 chain B5
+ 78 chain A6
+ 79 chain C7
+ 76 chain A and not water5
+ 77 chain D6
+ 77 chain B6
+ 79 chain A7
+ 80 chain C7
+ 77 chain A and not water5
+ 78 chain B7
+ 78 chain D6
+ 78 chain A and not water5
+ 80 chain A7
+ 81 chain C5
+ 79 chain D7
+ 79 chain B7
+ 81 chain A5
+ 79 chain A and not water6
+ 82 chain C7
+ 80 chain D6
+ 80 chain B6
+ 80 chain A and not water7
+ 83 chain C7
+ 82 chain A6
+ 81 chain B6
+ 81 chain D4
+ 81 chain A and not water5
+ 84 chain C7
+ 83 chain A7
+ 82 chain B6
+ 82 chain D6
+ 82 chain A and not water6
+ 85 chain C6
+ 84 chain A7
+ 83 chain B6
+ 83 chain D6
+ 83 chain A and not water7
+ 84 chain B7
+ 85 chain A6
+ 86 chain C6
+ 84 chain D7
+ 85 chain B7
+ 84 chain A and not water7
+ 86 chain A6
+ 87 chain C7
+ 85 chain D7
+ 86 chain B6
+ 85 chain A and not water6
+ 87 chain A5
+ 86 chain D7
+ 87 chain B7
+ 88 chain C6
+ 86 chain A and not water6
+ 88 chain A6
+ 88 chain B6
+ 89 chain C5
+ 87 chain A and not water5
+ 87 chain D7
+ 89 chain A6
+ 90 chain C6
+ 89 chain B6
+ 88 chain D6
+ 88 chain A and not water6
+ 90 chain A7
+ 91 chain C6
+ 90 chain B6
+ 89 chain D6
+ 89 chain A and not water6
+ 91 chain A6
+ 92 chain C7
+ 90 chain D6
+ 91 chain B8
+ 90 chain A and not water7
+ 92 chain A6
+ 93 chain C7
+ 91 chain D6
+ 92 chain B6
+ 91 chain A and not water6
+ 93 chain A5
+ 94 chain C6
+ 92 chain D7
+ 93 chain B7
+ 92 chain A and not water6
+ 94 chain A6
+ 95 chain C7
+ 93 chain D5
+ 94 chain B7
+ 93 chain A and not water5
+ 95 chain A6
+ 96 chain C7
+ 94 chain D6
+ 95 chain B7
+ 94 chain A and not water6
+ 96 chain A7
+ 97 chain C7
+ 95 chain D6
+ 96 chain B7
+ 95 chain A and not water6
+ 97 chain A7
+ 98 chain C7
+ 96 chain D6
+ 97 chain B7
+ 96 chain A and not water7
+ 99 chain C6
+ 98 chain A6
+ 97 chain D6
+ 98 chain B7
+ 97 chain A and not water7
+ 100 chain C6
+ 99 chain A6
+ 98 chain D5
+ 99 chain B5
+ 101 chain C5
+ 98 chain A and not water6
+ 99 chain D7
+ 100 chain B5
+ 100 chain A6
+ 102 chain C6
+ 99 chain A and not water6
+ 100 chain D7
+ 101 chain B6
+ 101 chain A6
+ 103 chain C7
+ 101 chain D6
+ 100 chain A and not water6
+ 102 chain B5
+ 102 chain A5
+ 104 chain C6
+ 103 chain B6
+ 102 chain D7
+ 101 chain A and not water6
+ 103 chain A7
+ 104 chain B7
+ 105 chain C7
+ 103 chain D6
+ 102 chain A and not water5
+ 104 chain A6
+ 106 chain C7
+ 105 chain B6
+ 104 chain D5
+ 103 chain A and not water7
+ 105 chain A6
+ 107 chain C7
+ 106 chain B6
+ 105 chain D5
+ 104 chain A and not water6
+ 108 chain C6
+ 106 chain A6
+ 107 chain B7
+ 106 chain D5
+ 105 chain A and not water6
+ 109 chain C6
+ 107 chain A6
+ 107 chain D6
+ 108 chain B5
+ 110 chain C6
+ 106 chain A and not water6
+ 108 chain D6
+ 108 chain A6
+ 109 chain B7
+ 111 chain C7
+ 107 chain A and not water6
+ 109 chain D6
+ 109 chain A6
+ 110 chain B5
+ 112 chain C6
+ 108 chain A and not water6
+ 110 chain D5
+ 110 chain A7
+ 111 chain B4
+ 109 chain A and not water6
+ 113 chain C5
+ 111 chain D6
+ 110 chain A and not water7
+ 111 chain A5
+ 114 chain C5
+ 112 chain B5
+ 112 chain D6
+ 111 chain A and not water5
+ 115 chain C6
+ 112 chain A5
+ 113 chain B6
+ 112 chain A and not water5
+ 113 chain D5
+ 116 chain C7
+ 113 chain A7
+ 114 chain B6
+ 113 chain A and not water7
+ 114 chain D7
+ 117 chain C6
+ 114 chain A6
+ 115 chain B6
+ 114 chain A and not water6
+ 115 chain D8
+ 118 chain C6
+ 115 chain A7
+ 116 chain B5
+ 115 chain A and not water7
+ 116 chain D6
+ 119 chain C5
+ 116 chain A and not water5
+ 116 chain A5
+ 117 chain B6
+ 117 chain D5
+ 120 chain C5
+ 117 chain A and not water5
+ 117 chain A5
+ 118 chain B6
+ 118 chain D5
+ 118 chain A and not water7
+ 119 chain B6
+ 121 chain C5
+ 119 chain D8
+ 118 chain A7
+ 119 chain A and not water7
+ 120 chain B6
+ 122 chain C6
+ 120 chain D5
+ 119 chain A7
+ 120 chain A and not water7
+ 121 chain B7
+ 123 chain C6
+ 121 chain D8
+ 120 chain A7
+ 121 chain A and not water6
+ 122 chain B5
+ 124 chain C6
+ 122 chain D7
+ 121 chain A6
+ 122 chain A and not water6
+ 125 chain C6
+ 123 chain B5
+ 123 chain D6
+ 122 chain A6
+ 123 chain A and not water6
+ 126 chain C6
+ 124 chain B7
+ 124 chain D5
+ 123 chain A6
+ 124 chain A and not water7
+ 127 chain C5
+ 125 chain B5
+ 125 chain D5
+ 124 chain A7
+ 125 chain A and not water7
+ 126 chain B6
+ 126 chain D8
+ 125 chain A7
+ 126 chain A and not water7
+ 127 chain B6
+ 127 chain D5
+ 126 chain A7
+ 127 chain A and not water6
+ 127 chain A6
+ 128 chain C6
+ 129 chain C6
+ 128 chain B6
+ 130 chain C6
+ 128 chain D6
+ 128 chain A and not water7
+ 129 chain B6
+ 131 chain C7
+ 129 chain A and not water7
+ 129 chain D6
+ 130 chain B7
+ 132 chain C5
+ 131 chain B7
+ 130 chain A and not water7
+ 130 chain D7
+ 133 chain C7
+ 131 chain A and not water8
+ 132 chain B6
+ 131 chain D7
+ 128 chain A7
+ 134 chain C8
+ 133 chain B6
+ 132 chain A and not water8
+ 132 chain D5
+ 129 chain A7
+ 134 chain B6
+ 135 chain C6
+ 133 chain A and not water7
+ 130 chain A7
+ 135 chain B5
+ 133 chain D6
+ 131 chain A8
+ 136 chain C7
+ 136 chain B6
+ 134 chain A and not water6
+ 134 chain D7
+ 132 chain A8
+ 137 chain C7
+ 137 chain B5
+ 135 chain D7
+ 135 chain A and not water7
+ 133 chain A7
+ 138 chain C7
+ 138 chain B6
+ 136 chain A and not water8
+ 136 chain D6
+ 134 chain A6
+ 139 chain C6
+ 139 chain B6
+ 137 chain A and not water6
+ 137 chain D6
+ 135 chain A7
+ 140 chain C6
+ 140 chain B6
+ 138 chain A and not water8
+ 136 chain A8
+ 138 chain D5
+ 141 chain C5
+ 141 chain B5
+ 137 chain A6
+ 139 chain A and not water8
+ 139 chain D5
+ 142 chain C6
+ 142 chain B5
+ 138 chain A8
+ 140 chain A and not water6
+ 143 chain B6
+ 143 chain C5
+ 140 chain D6
+ 139 chain A7
+ 144 chain B6
+ 141 chain A and not water5
+ 144 chain C8
+ 140 chain A6
+ 141 chain D6
+ 145 chain B6
+ 145 chain C6
+ 142 chain A and not water7
+ 146 chain B5
+ 141 chain A6
+ 142 chain D5
+ 147 chain B5
+ 146 chain C6
+ 142 chain A7
+ 143 chain A and not water7
+ 143 chain D6
+ 148 chain B5
+ 147 chain C6
+ 143 chain A7
+ 144 chain A and not water8
+ 149 chain B5
+ 144 chain D6
+ 144 chain A8
+ 145 chain A and not water6
+ 148 chain C6
+ 150 chain B6
+ 145 chain D7
+ 145 chain A6
+ 146 chain A and not water7
+ 149 chain C6
+ 151 chain B6
+ 146 chain A7
+ 146 chain D6
+ 147 chain A and not water6
+ 150 chain C8
+ 147 chain A7
+ 147 chain D5
+ 152 chain B6
+ 151 chain C8
+ 148 chain A and not water7
+ 148 chain A7
+ 152 chain C7
+ 148 chain D6
+ 153 chain B6
+ 149 chain A and not water6
+ 149 chain A6
+ 154 chain B6
+ 153 chain C6
+ 149 chain D6
+ 150 chain A and not water7
+ 150 chain A7
+ 155 chain B4
+ 150 chain D6
+ 154 chain C6
+ 151 chain A and not water6
+ 151 chain A6
+ 156 chain B5
+ 151 chain D7
+ 155 chain C5
+ 152 chain A6
+ 152 chain A and not water6
+ 157 chain B5
+ 152 chain D6
+ 153 chain A6
+ 158 chain B4
+ 156 chain C6
+ 153 chain A and not water6
+ 153 chain D5
+ 154 chain A6
+ 159 chain B7
+ 157 chain C5
+ 154 chain D6
+ 155 chain A6
+ 154 chain A and not water6
+ 160 chain B5
+ 158 chain C5
+ 155 chain D6
+ 161 chain B6
+ 159 chain C5
+ 155 chain A and not water6
+ 156 chain A7
+ 162 chain B6
+ 160 chain C5
+ 156 chain D7
+ 157 chain A7
+ 156 chain A and not water6
+ 163 chain B5
+ 157 chain D6
+ 158 chain A5
+ 161 chain C4
+ 164 chain B6
+ 157 chain A and not water7
+ 159 chain A7
+ 158 chain D6
+ 165 chain B6
+ 162 chain C6
+ 160 chain A7
+ 158 chain A and not water5
+ 159 chain D6
+ 166 chain B6
+ 163 chain C6
+ 161 chain A7
+ 159 chain A and not water7
+ 164 chain C6
+ 160 chain D6
+ 167 chain B6
+ 162 chain A4
+ 160 chain A and not water7
+ 165 chain C4
+ 161 chain D6
+ 168 chain B6
+ 163 chain A6
+ 166 chain C5
+ 161 chain A and not water6
+ 162 chain D7
+ 169 chain B7
+ 164 chain A7
+ 167 chain C5
+ 162 chain A and not water4
+ 163 chain D7
+ 170 chain B5
+ 165 chain A7
+ 168 chain C4
+ 164 chain D6
+ 163 chain A and not water7
+ 171 chain B6
+ 166 chain A6
+ 169 chain C5
+ 165 chain D7
+ 164 chain A and not water7
+ 172 chain B7
+ 167 chain A6
+ 170 chain C6
+ 166 chain D5
+ 173 chain B5
+ 165 chain A and not water7
+ 168 chain A6
+ 171 chain C7
+ 167 chain D6
+ 174 chain B6
+ 169 chain A6
+ 166 chain A and not water6
+ 168 chain D6
+ 172 chain C5
+ 175 chain B6
+ 170 chain A7
+ 169 chain D7
+ 167 chain A and not water6
+ 176 chain B6
+ 173 chain C5
+ 171 chain A6
+ 170 chain D6
+ 172 chain A7
+ 177 chain B5
+ 168 chain A and not water6
+ 171 chain D7
+ 174 chain C5
+ 173 chain A6
+ 172 chain D5
+ 178 chain B7
+ 169 chain A and not water6
+ 175 chain C4
+ 174 chain A7
+ 179 chain B7
+ 173 chain D6
+ 176 chain C5
+ 170 chain A and not water7
+ 175 chain A7
+ 180 chain B6
+ 174 chain D5
+ 181 chain B6
+ 176 chain A6
+ 171 chain A and not water6
+ 177 chain C6
+ 175 chain D8
+ 177 chain A7
+ 176 chain D6
+ 178 chain C4
+ 182 chain B7
+ 172 chain A and not water7
+ 178 chain A7
+ 177 chain D6
+ 179 chain C4
+ 173 chain A and not water6
+ 183 chain B7
+ 179 chain A7
+ 178 chain D5
+ 180 chain C5
+ 184 chain B7
+ 179 chain D5
+ 174 chain A and not water7
+ 180 chain A7
+ 181 chain C5
+ 185 chain B6
+ 175 chain A and not water7
+ 181 chain A7
+ 180 chain D6
+ 182 chain C5
+ 186 chain B6
+ 182 chain A7
+ 176 chain A and not water6
+ 181 chain D7
+ 183 chain C6
+ 187 chain B4
+ 183 chain A6
+ 184 chain C5
+ 177 chain A and not water7
+ 182 chain D5
+ 188 chain B6
+ 185 chain C5
+ 184 chain A7
+ 183 chain D6
+ 189 chain B5
+ 178 chain A and not water7
+ 186 chain C5
+ 185 chain A5
+ 190 chain B5
+ 184 chain D6
+ 187 chain C6
+ 179 chain A and not water7
+ 186 chain A6
+ 185 chain D7
+ 188 chain C5
+ 191 chain B4
+ 180 chain A and not water7
+ 187 chain A5
+ 186 chain D7
+ 189 chain C5
+ 192 chain B6
+ 188 chain A7
+ 181 chain A and not water7
+ 187 chain D7
+ 190 chain C5
+ 189 chain A6
+ 188 chain D7
+ 193 chain B5
+ 182 chain A and not water7
+ 191 chain C5
+ 190 chain A7
+ 189 chain D7
+ 194 chain B4
+ 183 chain A and not water6
+ 191 chain A5
+ 192 chain C5
+ 190 chain D8
+ 193 chain C5
+ 195 chain B7
+ 192 chain A7
+ 191 chain D5
+ 184 chain A and not water7
+ 193 chain A6
+ 192 chain D6
+ 194 chain C5
+ 196 chain B6
+ 185 chain A and not water5
+ 194 chain A6
+ 193 chain D7
+ 195 chain C6
+ 195 chain A5
+ 197 chain B5
+ 186 chain A and not water6
+ 194 chain D7
+ 196 chain C5
+ 196 chain A5
+ 197 chain A6
+ 195 chain D6
+ 187 chain A and not water5
+ 197 chain C5
+ 198 chain B5
+ 198 chain A6
+ 198 chain C5
+ 188 chain A and not water7
+ 196 chain D6
+ 199 chain B5
+ 199 chain A6
+ 200 chain B6
+ 199 chain C7
+ 197 chain D7
+ 189 chain A and not water6
+ 200 chain A7
+ 200 chain C4
+ 201 chain B6
+ 190 chain A and not water7
+ 201 chain A6
+ 198 chain D6
+ 201 chain C6
+ 202 chain A7
+ 202 chain C6
+ 191 chain A and not water5
+ 199 chain D7
+ 202 chain B6
+ 203 chain A6
+ 200 chain D8
+ 203 chain C5
+ 203 chain B7
+ 192 chain A and not water7
+ 201 chain D7
+ 204 chain A6
+ 204 chain C6
+ 204 chain B5
+ 193 chain A and not water6
+ 202 chain D6
+ 203 chain D7
+ 205 chain C6
+ 205 chain B7
+ 205 chain A6
+ 194 chain A and not water6
+ 204 chain D6
+ 205 chain D8
+ 206 chain A6
+ 206 chain B6
+ 195 chain A and not water5
+ 206 chain C5
+ 206 chain D6
+ 207 chain A6
+ 207 chain D6
+ 196 chain A and not water5
+ 207 chain B5
+ 207 chain C6
+ 208 chain B5
+ 197 chain A and not water6
+ 208 chain C4
+ 208 chain D7
+ 208 chain A6
+ 209 chain B6
+ 209 chain D8
+ 198 chain A and not water6
+ 209 chain A7
+ 209 chain C7
+ 210 chain D6
+ 210 chain B6
+ 210 chain A7
+ 199 chain A and not water6
+ 210 chain C5
+ 211 chain B7
+ 211 chain D7
+ 211 chain C6
+ 200 chain A and not water7
+ 211 chain A7
+ 212 chain B6
+ 212 chain A6
+ 201 chain A and not water6
+ 212 chain D7
+ 212 chain C6
+ 202 chain A and not water7
+ 213 chain B6
+ 213 chain C6
+ 213 chain D7
+ 213 chain A7
+ 203 chain A and not water6
+ 214 chain B7
+ 214 chain C6
+ 214 chain D5
+ 214 chain A6
+ 204 chain A and not water6
+ 215 chain B6
+ 215 chain C6
+ 215 chain D5
+ 215 chain A4
+ 205 chain A and not water6
+ 216 chain B4
+ 216 chain D7
+ 216 chain C6
+ 206 chain A and not water6
+ 216 chain A6
+ 217 chain B7
+ 217 chain D5
+ 217 chain C6
+ 218 chain B6
+ 207 chain A and not water6
+ 217 chain A5
+ 218 chain C5
+ 218 chain D7
+ 208 chain A and not water6
+ 218 chain A7
+ 219 chain B7
+ 219 chain C6
+ 219 chain D5
+ 209 chain A and not water7
+ 219 chain A6
+ 220 chain C6
+ 220 chain B7
+ 210 chain A and not water7
+ 220 chain D5
+ 221 chain B7
+ 221 chain C7
+ 220 chain A5
+ 221 chain D5
+ 211 chain A and not water7
+ 222 chain C6
+ 222 chain B5
+ 221 chain A7
+ 222 chain D5
+ 212 chain A and not water6
+ 223 chain B6
+ 223 chain C6
+ 222 chain A6
+ 223 chain D6
+ 213 chain A and not water7
+ 224 chain C6
+ 224 chain B6
+ 224 chain D6
+ 214 chain A and not water6
+ 223 chain A6
+ 225 chain C6
+ 225 chain B6
+ 225 chain D5
+ 215 chain A and not water4
+ 224 chain A5
+ 226 chain C7
+ 226 chain B6
+ 225 chain A7
+ 226 chain D6
+ 216 chain A and not water6
+ 227 chain C6
+ 226 chain A6
+ 227 chain B6
+ 227 chain D7
+ 228 chain C6
+ 217 chain A and not water5
+ 227 chain A5
+ 228 chain B6
+ 228 chain D5
+ 228 chain A7
+ 229 chain B6
+ 229 chain C5
+ 218 chain A and not water7
+ 229 chain D6
+ 229 chain A6
+ 230 chain B6
+ 219 chain A and not water6
+ 230 chain C6
+ 230 chain D5
+ 230 chain A5
+ 231 chain B7
+ 220 chain A and not water5
+ 231 chain C6
+ 231 chain A7
+ 231 chain D4
+ 232 chain A5
+ 221 chain A and not water7
+ 232 chain C6
+ 232 chain B7
+ 232 chain D5
+ 233 chain A5
+ 222 chain A and not water6
+ 233 chain C6
+ 233 chain B6
+ 233 chain D6
+ 223 chain A and not water6
+ 224 chain A and not water5
+ 234 chain C6
+ 234 chain A6
+ 234 chain D7
+ 234 chain B7
+ 225 chain A and not water7
+ 235 chain A7
+ 235 chain C6
+ 235 chain B5
+ 235 chain D6
+ 236 chain C6
+ 236 chain A6
+ 236 chain B6
+ 236 chain D7
+ 226 chain A and not water6
+ 237 chain A6
+ 237 chain C6
+ 237 chain B6
+ 237 chain D5
+ 227 chain A and not water5
+ 238 chain A7
+ 238 chain C6
+ 238 chain B5
+ 238 chain D8
+ 228 chain A and not water7
+ 239 chain A6
+ 239 chain C6
+ 239 chain D6
+ 239 chain B6
+ 229 chain A and not water6
+ 240 chain C6
+ 240 chain A6
+ 240 chain B6
+ 240 chain D5
+ 241 chain A6
+ 241 chain C6
+ 230 chain A and not water5
+ 241 chain D6
+ 241 chain B6
+ 242 chain A4
+ 231 chain A and not water5
+ 242 chain C6
+ 242 chain D6
+ 242 chain B6
+ 243 chain A6
+ 232 chain A and not water5
+ 243 chain B7
+ 243 chain D5
+ 243 chain C5
+ 244 chain A5
+ 233 chain A and not water5
+ 244 chain B6
+ 244 chain D6
+ 244 chain C6
+ 245 chain A6
+ 245 chain B8
+ 245 chain D6
+ 234 chain A and not water6
+ 245 chain C6
+ 235 chain A and not water7
+ 246 chain B5
+ 246 chain C5
+ 246 chain D5
+ 246 chain A5
+ 236 chain A and not water6
+ 247 chain B6
+ 247 chain D6
+ 247 chain C6
+ 247 chain A7
+ 237 chain A and not water6
+ 248 chain B6
+ 248 chain D6
+ 248 chain C6
+ 238 chain A and not water7
+ 248 chain A7
+ 249 chain B6
+ 249 chain D8
+ 239 chain A and not water6
+ 249 chain C6
+ 249 chain A6
+ 250 chain B5
+ 240 chain A and not water6
+ 250 chain D7
+ 250 chain C7
+ 250 chain A7
+ 251 chain B4
+ 241 chain A and not water6
+ 251 chain D7
+ 251 chain A6
+ 251 chain C6
+ 242 chain A and not water4
+ 252 chain B5
+ 252 chain A6
+ 252 chain D7
+ 252 chain C6
+ 253 chain B6
+ 253 chain A6
+ 243 chain A and not water6
+ 253 chain D5
+ 254 chain B7
+ 253 chain C5
+ 244 chain A and not water5
+ 254 chain D7
+ 254 chain C6
+ 255 chain B6
+ 254 chain A6
+ 245 chain A and not water6
+ 255 chain C5
+ 255 chain D7
+ 255 chain A5
+ 246 chain A and not water5
+ 247 chain A and not water7
+ 248 chain A and not water7
+ 249 chain A and not water6
+ 250 chain A and not water7
+ 251 chain A and not water6
+ 252 chain A and not water6
+ 253 chain A and not water6
+ 254 chain A and not water6
+ 255 chain A and not water5
+ 256 chain A4
+ 257 chain A6
+ 258 chain A6
+ 259 chain A6
+ 260 chain A6
+ 256 chain B6
+ 261 chain A6
+ 262 chain A6
+ 257 chain B6
+ 263 chain A6
+ 258 chain B5
+ 259 chain B5
+ 264 chain A6
+ 256 chain D6
+ 260 chain B7
+ 257 chain D7
+ 265 chain A7
+ 261 chain B6
+ 266 chain A6
+ 258 chain D7
+ 262 chain B4
+ 267 chain A6
+ 259 chain D5
+ 263 chain B6
+ 260 chain D6
+ 256 chain C4
+ 264 chain B7
+ 261 chain D6
+ 257 chain C5
+ 265 chain B7
+ 262 chain D5
+ 258 chain C7
+ 266 chain B6
+ 263 chain D5
+ 259 chain C6
+ 267 chain B6
+ 264 chain D6
+ 260 chain C4
+ 265 chain D5
+ 261 chain C6
+ 266 chain D6
+ 262 chain C6
+ 267 chain D5
+ 263 chain C4
+ 264 chain C6
+ 265 chain C3
+ 266 chain C6
+ 256 chain A and not water4
+ 267 chain C6
+ 268 chain C6
+ 257 chain A and not water6
+ 268 chain A6
+ 268 chain B6
+ 268 chain D4
+ 269 chain C5
+ 258 chain A and not water6
+ 269 chain B5
+ 269 chain A5
+ 269 chain D6
+ 259 chain A and not water6
+ 270 chain C6
+ 270 chain D6
+ 270 chain A8
+ 270 chain B7
+ 260 chain A and not water6
+ 271 chain C7
+ 271 chain D6
+ 271 chain B6
+ 271 chain A7
+ 261 chain A and not water6
+ 272 chain C6
+ 272 chain B7
+ 272 chain D6
+ 262 chain A and not water6
+ 272 chain A7
+ 273 chain C6
+ 273 chain B6
+ 273 chain D6
+ 263 chain A and not water6
+ 273 chain A6
+ 274 chain B6
+ 274 chain C6
+ 274 chain D5
+ 264 chain A and not water6
+ 275 chain B5
+ 274 chain A6
+ 275 chain D6
+ 275 chain C6
+ 265 chain A and not water7
+ 276 chain B6
+ 275 chain A5
+ 276 chain C5
+ 276 chain D5
+ 266 chain A and not water6
+ 277 chain B6
+ 276 chain A6
+ 267 chain A and not water6
+ 277 chain C6
+ 277 chain D6
+ 278 chain B6
+ 268 chain A and not water6
+ 278 chain C7
+ 277 chain A7
+ 279 chain B6
+ 278 chain D5
+ 280 chain B7
+ 279 chain D5
+ 279 chain C6
+ 278 chain A6
+ 269 chain A and not water5
+ 281 chain B7
+ 279 chain A8
+ 270 chain A and not water7
+ 280 chain D6
+ 280 chain C5
+ 282 chain B6
+ 281 chain C6
+ 271 chain A and not water6
+ 281 chain D5
+ 280 chain A8
+ 283 chain B4
+ 272 chain A and not water7
+ 281 chain A7
+ 282 chain C6
+ 282 chain D4
+ 284 chain B7
+ 273 chain A and not water6
+ 282 chain A7
+ 283 chain C6
+ 283 chain D5
+ 274 chain A and not water6
+ 283 chain A6
+ 284 chain D4
+ 284 chain C6
+ 285 chain B6
+ 275 chain A and not water5
+ 284 chain A7
+ 285 chain D5
+ 285 chain C5
+ 286 chain B7
+ 276 chain A and not water6
+ 286 chain C7
+ 286 chain D6
+ 285 chain A6
+ 287 chain B5
+ 277 chain A and not water7
+ 287 chain C6
+ 287 chain D6
+ 288 chain B5
+ 286 chain A6
+ 278 chain A and not water6
+ 288 chain C6
+ 288 chain D5
+ 289 chain B4
+ 287 chain A6
+ 279 chain A and not water8
+ 289 chain C6
+ 290 chain B6
+ 288 chain A6
+ 290 chain C5
+ 289 chain D6
+ 280 chain A and not water8
+ 291 chain B6
+ 291 chain C6
+ 289 chain A6
+ 281 chain A and not water7
+ 292 chain B6
+ 290 chain D7
+ 292 chain C7
+ 290 chain A6
+ 282 chain A and not water7
+ 293 chain B6
+ 291 chain D6
+ 293 chain C7
+ 291 chain A6
+ 294 chain B6
+ 283 chain A and not water6
+ 292 chain D6
+ 294 chain C7
+ 292 chain A6
+ 284 chain A and not water6
+ 295 chain B6
+ 293 chain D7
+ 295 chain C5
+ 293 chain A7
+ 285 chain A and not water6
+ 296 chain B6
+ 294 chain D7
+ 296 chain C5
+ 294 chain A5
+ 286 chain A and not water6
+ 297 chain B6
+ 295 chain D5
+ 297 chain C7
+ 295 chain A5
+ 287 chain A and not water6
+ 298 chain B6
+ 298 chain C5
+ 296 chain D5
+ 296 chain A5
+ 288 chain A and not water6
+ 299 chain C5
+ 299 chain B6
+ 297 chain D6
+ 297 chain A6
+ 289 chain A and not water6
+ 300 chain C7
+ 300 chain B6
+ 290 chain A and not water6
+ 298 chain A7
+ 298 chain D7
+ 301 chain B5
+ 301 chain C6
+ 291 chain A and not water6
+ 299 chain A7
+ 302 chain B6
+ 299 chain D6
+ 292 chain A and not water6
+ 302 chain C6
+ 300 chain A5
+ 293 chain A and not water7
+ 303 chain B6
+ 300 chain D6
+ 303 chain C7
+ 294 chain A and not water5
+ 301 chain A7
+ 304 chain B6
+ 301 chain D5
+ 295 chain A and not water6
+ 305 chain B6
+ 304 chain C6
+ 302 chain A6
+ 302 chain D7
+ 296 chain A and not water5
+ 306 chain B6
+ 303 chain A5
+ 305 chain C6
+ 297 chain A and not water6
+ 303 chain D6
+ 307 chain B6
+ 304 chain A5
+ 306 chain C6
+ 298 chain A and not water7
+ 308 chain B6
+ 304 chain D6
+ 305 chain A6
+ 307 chain C7
+ 299 chain A and not water7
+ 309 chain B6
+ 306 chain A6
+ 305 chain D6
+ 300 chain A and not water5
+ 308 chain C6
+ 310 chain B6
+ 307 chain A5
+ 301 chain A and not water7
+ 306 chain D6
+ 309 chain C7
+ 311 chain B6
+ 308 chain A5
+ 302 chain A and not water6
+ 307 chain D6
+ 312 chain B6
+ 310 chain C5
+ 303 chain A and not water5
+ 309 chain A5
+ 313 chain B6
+ 308 chain D6
+ 304 chain A and not water5
+ 311 chain C8
+ 310 chain A6
+ 305 chain A and not water6
+ 314 chain B7
+ 309 chain D6
+ 312 chain C8
+ 311 chain A7
+ 306 chain A and not water6
+ 315 chain B6
+ 310 chain D7
+ 313 chain C6
+ 307 chain A and not water5
+ 312 chain A6
+ 316 chain B7
+ 311 chain D6
+ 314 chain C7
+ 317 chain B7
+ 308 chain A and not water5
+ 313 chain A7
+ 312 chain D5
+ 315 chain C7
+ 318 chain B5
+ 314 chain A6
+ 309 chain A and not water5
+ 313 chain D6
+ 316 chain C8
+ 319 chain B6
+ 310 chain A and not water7
+ 315 chain A6
+ 314 chain D5
+ 317 chain C7
+ 311 chain A and not water7
+ 320 chain B5
+ 316 chain A6
+ 315 chain D5
+ 312 chain A and not water6
+ 321 chain B6
+ 318 chain C6
+ 317 chain A7
+ 316 chain D5
+ 319 chain C7
+ 318 chain A6
+ 322 chain B7
+ 313 chain A and not water7
+ 317 chain D5
+ 319 chain A5
+ 320 chain C7
+ 323 chain B6
+ 314 chain A and not water6
+ 318 chain D6
+ 320 chain A5
+ 324 chain B8
+ 321 chain C5
+ 319 chain D6
+ 315 chain A and not water6
+ 321 chain A6
+ 322 chain A5
+ 325 chain B8
+ 320 chain D6
+ 316 chain A and not water6
+ 322 chain C6
+ 323 chain A7
+ 326 chain B6
+ 321 chain D6
+ 317 chain A and not water7
+ 324 chain A5
+ 323 chain C6
+ 327 chain B6
+ 325 chain A6
+ 322 chain D6
+ 318 chain A and not water6
+ 324 chain C6
+ 328 chain B8
+ 326 chain A6
+ 323 chain D6
+ 329 chain B7
+ 325 chain C6
+ 319 chain A and not water5
+ 327 chain A6
+ 330 chain B5
+ 324 chain D6
+ 326 chain C6
+ 320 chain A and not water5
+ 328 chain A6
+ 331 chain B7
+ 329 chain A6
+ 325 chain D5
+ 327 chain C7
+ 321 chain A and not water6
+ 332 chain B7
+ 330 chain A7
+ 333 chain B7
+ 322 chain A and not water5
+ 328 chain C6
+ 326 chain D7
+ 331 chain A5
+ 334 chain B7
+ 323 chain A and not water7
+ 327 chain D6
+ 329 chain C7
+ 332 chain A5
+ 333 chain A6
+ 328 chain D5
+ 324 chain A and not water5
+ 330 chain C6
+ 335 chain B6
+ 334 chain A6
+ 329 chain D6
+ 325 chain A and not water6
+ 335 chain A6
+ 336 chain B6
+ 331 chain C5
+ 330 chain D5
+ 326 chain A and not water6
+ 336 chain A7
+ 331 chain D4
+ 337 chain B4
+ 332 chain C6
+ 337 chain A6
+ 327 chain A and not water6
+ 332 chain D6
+ 338 chain B5
+ 333 chain C6
+ 338 chain A7
+ 328 chain A and not water6
+ 333 chain D6
+ 339 chain B5
+ 339 chain A6
+ 334 chain C7
+ 334 chain D8
+ 340 chain A6
+ 329 chain A and not water6
+ 335 chain C6
+ 340 chain B7
+ 335 chain D5
+ 341 chain A6
+ 330 chain A and not water7
+ 341 chain B7
+ 336 chain D5
+ 336 chain C6
+ 337 chain D5
+ 331 chain A and not water5
+ 342 chain A6
+ 337 chain C6
+ 338 chain D5
+ 342 chain B6
+ 332 chain A and not water5
+ 343 chain A5
+ 339 chain D5
+ 333 chain A and not water7
+ 338 chain C6
+ 343 chain B5
+ 344 chain A6
+ 340 chain D6
+ 334 chain A and not water6
+ 344 chain B6
+ 339 chain C7
+ 345 chain A5
+ 341 chain D6
+ 335 chain A and not water6
+ 340 chain C7
+ 346 chain A6
+ 342 chain D6
+ 345 chain B6
+ 347 chain A5
+ 336 chain A and not water7
+ 341 chain C7
+ 343 chain D6
+ 346 chain B7
+ 337 chain A and not water6
+ 348 chain A6
+ 344 chain D6
+ 347 chain B6
+ 342 chain C7
+ 338 chain A and not water7
+ 349 chain A6
+ 345 chain D6
+ 348 chain B6
+ 343 chain C7
+ 339 chain A and not water6
+ 350 chain A5
+ 346 chain D7
+ 349 chain B6
+ 340 chain A and not water6
+ 351 chain A6
+ 344 chain C5
+ 347 chain D7
+ 341 chain A and not water6
+ 350 chain B6
+ 352 chain A5
+ 345 chain C7
+ 348 chain D6
+ 342 chain A and not water6
+ 351 chain B6
+ 353 chain A6
+ 349 chain D7
+ 343 chain A and not water5
+ 346 chain C6
+ 354 chain A6
+ 352 chain B6
+ 350 chain D6
+ 344 chain A and not water6
+ 351 chain D6
+ 355 chain A6
+ 353 chain B8
+ 347 chain C7
+ 345 chain A and not water5
+ 352 chain D7
+ 356 chain A6
+ 354 chain B5
+ 353 chain D6
+ 346 chain A and not water6
+ 348 chain C7
+ 355 chain B6
+ 357 chain A5
+ 347 chain A and not water5
+ 354 chain D6
+ 349 chain C6
+ 355 chain D6
+ 358 chain A6
+ 348 chain A and not water6
+ 356 chain B6
+ 356 chain D5
+ 350 chain C6
+ 359 chain A6
+ 357 chain B6
+ 349 chain A and not water6
+ 357 chain D7
+ 360 chain A7
+ 351 chain C6
+ 358 chain B6
+ 358 chain D5
+ 350 chain A and not water6
+ 361 chain A6
+ 352 chain C6
+ 359 chain B5
+ 359 chain D6
+ 351 chain A and not water6
+ 362 chain A6
+ 353 chain C7
+ 360 chain B6
+ 360 chain D7
+ 352 chain A and not water5
+ 361 chain B6
+ 363 chain A7
+ 354 chain C7
+ 361 chain D7
+ 362 chain B6
+ 353 chain A and not water6
+ 355 chain C7
+ 362 chain D7
+ 364 chain A5
+ 363 chain B6
+ 363 chain D7
+ 356 chain C5
+ 365 chain A7
+ 354 chain A and not water6
+ 364 chain B5
+ 364 chain D6
+ 357 chain C5
+ 365 chain B7
+ 355 chain A and not water6
+ 365 chain D7
+ 366 chain A7
+ 366 chain B6
+ 358 chain C7
+ 356 chain A and not water6
+ 366 chain D7
+ 367 chain A7
+ 367 chain B6
+ 367 chain D5
+ 359 chain C6
+ 357 chain A and not water5
+ 368 chain B7
+ 368 chain D6
+ 368 chain A7
+ 360 chain C5
+ 358 chain A and not water6
+ 369 chain B6
+ 369 chain D4
+ 369 chain A5
+ 370 chain B6
+ 361 chain C7
+ 359 chain A and not water6
+ 370 chain D6
+ 370 chain A7
+ 371 chain B6
+ 371 chain D6
+ 371 chain A6
+ 362 chain C5
+ 360 chain A and not water7
+ 363 chain C4
+ 372 chain D7
+ 372 chain A7
+ 361 chain A and not water6
+ 372 chain B6
+ 364 chain C7
+ 373 chain D6
+ 362 chain A and not water6
+ 365 chain C7
+ 373 chain B6
+ 373 chain A5
+ 374 chain D6
+ 366 chain C6
+ 363 chain A and not water7
+ 374 chain B6
+ 374 chain A6
+ 375 chain A6
+ 375 chain B6
+ 375 chain D6
+ 367 chain C6
+ 364 chain A and not water5
+ 368 chain C6
+ 376 chain D7
+ 365 chain A and not water7
+ 376 chain B6
+ 376 chain A7
+ 369 chain C6
+ 366 chain A and not water7
+ 377 chain D7
+ 377 chain B6
+ 370 chain C6
+ 377 chain A6
+ 378 chain D6
+ 367 chain A and not water7
+ 371 chain C8
+ 378 chain B6
+ 378 chain A6
+ 372 chain C6
+ 379 chain D5
+ 368 chain A and not water7
+ 379 chain A6
+ 379 chain B6
+ 373 chain C6
+ 380 chain D7
+ 369 chain A and not water5
+ 380 chain A6
+ 374 chain C5
+ 380 chain B6
+ 375 chain C7
+ 370 chain A and not water7
+ 381 chain B6
+ 381 chain A6
+ 381 chain D7
+ 376 chain C6
+ 371 chain A and not water6
+ 382 chain A6
+ 377 chain C6
+ 382 chain B5
+ 382 chain D6
+ 372 chain A and not water7
+ 378 chain C7
+ 383 chain D7
+ 383 chain B6
+ 383 chain A6
+ 373 chain A and not water5
+ 379 chain C6
+ 384 chain D6
+ 374 chain A and not water6
+ 380 chain C6
+ 384 chain A6
+ 384 chain B5
+ 385 chain D7
+ 375 chain A and not water6
+ 381 chain C6
+ 385 chain A7
+ 385 chain B6
+ 386 chain D6
+ 376 chain A and not water5
+ 382 chain C7
+ 387 chain D7
+ 386 chain A5
+ 386 chain B6
+ 377 chain A and not water6
+ 383 chain C6
+ 388 chain D7
+ 387 chain A6
+ 387 chain B6
+ 378 chain A and not water6
+ 384 chain C8
+ 389 chain D6
+ 388 chain A6
+ 388 chain B6
+ 379 chain A and not water6
+ 385 chain C6
+ 389 chain A5
+ 389 chain B6
+ 380 chain A and not water6
+ 386 chain C7
+ 390 chain D5
+ 390 chain A7
+ 390 chain B6
+ 391 chain D6
+ 387 chain C6
+ 381 chain A and not water6
+ 391 chain A6
+ 392 chain D5
+ 391 chain B5
+ 388 chain C5
+ 382 chain A and not water6
+ 392 chain A5
+ 392 chain B5
+ 393 chain D6
+ 389 chain C4
+ 383 chain A and not water6
+ 393 chain A4
+ 393 chain B6
+ 394 chain D6
+ 390 chain C6
+ 384 chain A and not water6
+ 394 chain A6
+ 394 chain B6
+ 395 chain D6
+ 391 chain C6
+ 385 chain A and not water7
+ 395 chain A6
+ 395 chain B4
+ 396 chain D6
+ 392 chain C8
+ 386 chain A and not water5
+ 396 chain A6
+ 393 chain C5
+ 397 chain D5
+ 396 chain B5
+ 387 chain A and not water6
+ 397 chain A5
+ 394 chain C7
+ 398 chain D5
+ 398 chain A4
+ 397 chain B6
+ 388 chain A and not water6
+ 395 chain C6
+ 399 chain D5
+ 396 chain C5
+ 389 chain A and not water5
+ 398 chain B5
+ 399 chain A7
+ 400 chain D5
+ 397 chain C7
+ 399 chain B6
+ 398 chain C7
+ 390 chain A and not water7
+ 400 chain A5
+ 401 chain D7
+ 399 chain C6
+ 400 chain B6
+ 391 chain A and not water6
+ 400 chain C8
+ 401 chain A6
+ 402 chain D5
+ 401 chain C5
+ 401 chain B6
+ 392 chain A and not water5
+ 402 chain A7
+ 403 chain D5
+ 393 chain A and not water4
+ 402 chain C6
+ 402 chain B6
+ 403 chain A6
+ 404 chain D7
+ 394 chain A and not water6
+ 403 chain C6
+ 403 chain B5
+ 404 chain A6
+ 405 chain D6
+ 395 chain A and not water6
+ 404 chain C6
+ 404 chain B5
+ 396 chain A and not water6
+ 405 chain A7
+ 406 chain D5
+ 405 chain C7
+ 405 chain B6
+ 397 chain A and not water5
+ 406 chain A6
+ 407 chain D5
+ 406 chain C7
+ 398 chain A and not water4
+ 406 chain B7
+ 408 chain D5
+ 407 chain A6
+ 407 chain C6
+ 399 chain A and not water7
+ 407 chain B6
+ 408 chain A6
+ 409 chain D5
+ 408 chain C6
+ 400 chain A and not water5
+ 408 chain B6
+ 409 chain A5
+ 409 chain C5
+ 401 chain A and not water6
+ 410 chain D5
+ 409 chain B6
+ 410 chain A6
+ 410 chain C6
+ 402 chain A and not water7
+ 410 chain B7
+ 411 chain D6
+ 411 chain A4
+ 411 chain C7
+ 411 chain B6
+ 403 chain A and not water6
+ 412 chain A6
+ 412 chain D5
+ 412 chain B5
+ 412 chain C6
+ 404 chain A and not water6
+ 413 chain A5
+ 413 chain D7
+ 413 chain B6
+ 405 chain A and not water7
+ 413 chain C6
+ 414 chain A6
+ 414 chain C6
+ 414 chain B6
+ 414 chain D5
+ 406 chain A and not water6
+ 415 chain A6
+ 415 chain C7
+ 407 chain A and not water6
+ 415 chain B5
+ 415 chain D5
+ 416 chain A6
+ 408 chain A and not water6
+ 416 chain C5
+ 416 chain B6
+ 416 chain D6
+ 417 chain A7
+ 409 chain A and not water5
+ 417 chain C6
+ 417 chain B5
+ 417 chain D6
+ 418 chain A6
+ 410 chain A and not water6
+ 418 chain C7
+ 418 chain B5
+ 419 chain A5
+ 418 chain D5
+ 411 chain A and not water4
+ 419 chain C6
+ 420 chain A6
+ 419 chain B5
+ 412 chain A and not water6
+ 419 chain D5
+ 420 chain C6
+ 421 chain A7
+ 420 chain B5
+ 420 chain D4
+ 421 chain C6
+ 413 chain A and not water5
+ 421 chain B4
+ 422 chain A5
+ 422 chain B6
+ 422 chain C7
+ 421 chain D5
+ 414 chain A and not water6
+ 423 chain A7
+ 423 chain B4
+ 423 chain C6
+ 415 chain A and not water6
+ 424 chain A6
+ 424 chain B5
+ 422 chain D5
+ 424 chain C7
+ 416 chain A and not water6
+ 425 chain A6
+ 425 chain B5
+ 423 chain D5
+ 425 chain C7
+ 417 chain A and not water7
+ 426 chain A6
+ 424 chain D6
+ 426 chain B5
+ 418 chain A and not water6
+ 426 chain C5
+ 427 chain A5
+ 425 chain D5
+ 419 chain A and not water5
+ 427 chain C5
+ 428 chain A6
+ 427 chain B6
+ 429 chain A6
+ 426 chain D6
+ 428 chain B5
+ 420 chain A and not water6
+ 428 chain C6
+ 430 chain A7
+ 429 chain B6
+ 427 chain D6
+ 429 chain C7
+ 421 chain A and not water7
+ 431 chain A7
+ 430 chain B6
+ 430 chain C5
+ 422 chain A and not water5
+ 428 chain D6
+ 432 chain A6
+ 431 chain B5
+ 431 chain C5
+ 423 chain A and not water7
+ 429 chain D5
+ 433 chain A6
+ 432 chain C7
+ 432 chain B5
+ 424 chain A and not water6
+ 433 chain B6
+ 430 chain D7
+ 434 chain A6
+ 433 chain C6
+ 425 chain A and not water6
+ 434 chain B6
+ 431 chain D6
+ 434 chain C7
+ 435 chain A6
+ 435 chain B6
+ 426 chain A and not water6
+ 432 chain D6
+ 435 chain C6
+ 436 chain A7
+ 427 chain A and not water5
+ 436 chain B6
+ 433 chain D6
+ 437 chain A8
+ 436 chain C6
+ 437 chain B7
+ 428 chain A and not water6
+ 437 chain C6
+ 438 chain A6
+ 434 chain D7
+ 438 chain B5
+ 429 chain A and not water6
+ 438 chain C6
+ 439 chain A7
+ 439 chain B6
+ 430 chain A and not water7
+ 435 chain D7
+ 439 chain C6
+ 440 chain A6
+ 440 chain B5
+ 440 chain C6
+ 431 chain A and not water7
+ 436 chain D6
+ 441 chain A7
+ 441 chain B6
+ 432 chain A and not water7
+ 441 chain C7
+ 437 chain D7
+ 442 chain A6
+ 442 chain B7
+ 433 chain A and not water6
+ 442 chain C6
+ 443 chain A6
+ 438 chain D6
+ 443 chain B6
+ 434 chain A and not water6
+ 443 chain C5
+ 444 chain A6
+ 444 chain B6
+ 439 chain D7
+ 435 chain A and not water6
+ 444 chain C6
+ 440 chain D5
+ 445 chain A4
+ 445 chain B4
+ 436 chain A and not water7
+ 445 chain C6
+ 446 chain A6
+ 441 chain D6
+ 446 chain B5
+ 437 chain A and not water8
+ 446 chain C7
+ 447 chain A6
+ 447 chain B6
+ 447 chain C7
+ 438 chain A and not water6
+ 442 chain D6
+ 448 chain A6
+ 448 chain B5
+ 448 chain C6
+ 439 chain A and not water7
+ 443 chain D6
+ 449 chain A7
+ 449 chain B5
+ 449 chain C7
+ 440 chain A and not water7
+ 450 chain B5
+ 444 chain D5
+ 450 chain A6
+ 450 chain C5
+ 441 chain A and not water7
+ 451 chain B5
+ 451 chain A6
+ 451 chain C5
+ 445 chain D5
+ 452 chain B5
+ 442 chain A and not water6
+ 453 chain B4
+ 443 chain A and not water6
+ 446 chain D7
+ 452 chain A5
+ 452 chain C7
+ 454 chain B4
+ 444 chain A and not water6
+ 455 chain B5
+ 447 chain D6
+ 453 chain C7
+ 453 chain A5
+ 445 chain A and not water4
+ 456 chain B5
+ 454 chain C5
+ 448 chain D6
+ 454 chain A5
+ 446 chain A and not water6
+ 457 chain B6
+ 455 chain A6
+ 458 chain B4
+ 447 chain A and not water6
+ 449 chain D5
+ 455 chain C5
+ 456 chain A5
+ 459 chain B5
+ 448 chain A and not water6
+ 457 chain A7
+ 456 chain C6
+ 450 chain D7
+ 460 chain B4
+ 457 chain C5
+ 449 chain A and not water7
+ 451 chain D6
+ 458 chain A7
+ 458 chain C7
+ 461 chain B6
+ 452 chain D6
+ 459 chain A7
+ 450 chain A and not water6
+ 459 chain C6
+ 451 chain A and not water6
+ 460 chain A6
+ 453 chain D6
+ 462 chain B4
+ 460 chain C7
+ 461 chain A6
+ 452 chain A and not water5
+ 454 chain D6
+ 461 chain C7
+ 463 chain B6
+ 453 chain A and not water5
+ 462 chain C7
+ 455 chain D7
+ 462 chain A5
+ 464 chain B5
+ 454 chain A and not water5
+ 463 chain C6
+ 465 chain B6
+ 463 chain A5
+ 456 chain D5
+ 455 chain A and not water5
+ 464 chain C6
+ 466 chain B5
+ 457 chain D5 
+464 chain A8
+ 456 chain A and not water5
+ 465 chain C6
+ 467 chain B6
+ 468 chain B5
+ 458 chain D7
+ 457 chain A and not water7
+ 466 chain C5
+ 465 chain A7
+ 458 chain A and not water7
+ 467 chain C5
+ 459 chain D6
+ 466 chain A6
+ 469 chain B5
+ 459 chain A and not water7
+ 468 chain C7
+ 460 chain D7
+ 467 chain A7
+ 470 chain B6
+ 460 chain A and not water6
+ 461 chain D8
+ 469 chain C5
+ 468 chain A6
+ 471 chain B6
+ 462 chain D7
+ 470 chain C6
+ 461 chain A and not water6
+ 469 chain A6
+ 472 chain B6
+ 463 chain D5
+ 462 chain A and not water5
+ 471 chain C7
+ 470 chain A6
+ 473 chain B5
+ 464 chain D7
+ 463 chain A and not water5
+ 472 chain C7
+ 465 chain D7
+ 471 chain A5
+ 474 chain B7
+ 464 chain A and not water8
+ 466 chain D7
+ 473 chain C7
+ 475 chain B5
+ 472 chain A7
+ 467 chain D6
+ 465 chain A and not water7
+ 474 chain C7
+ 468 chain D5
+ 476 chain B6
+ 473 chain A5
+ 466 chain A and not water6
+ 469 chain D8
+ 475 chain C6
+ 477 chain B5
+ 474 chain A5
+ 467 chain A and not water7
+ 470 chain D6
+ 476 chain C7
+ 478 chain B5
+ 475 chain A6
+ 468 chain A and not water6
+ 471 chain D7
+ 479 chain B6
+ 477 chain C6
+ 476 chain A6
+ 469 chain A and not water6
+ 480 chain B6
+ 472 chain D7
+ 478 chain C6
+ 477 chain A6
+ 470 chain A and not water6
+ 481 chain B5
+ 473 chain D7
+ 479 chain C7
+ 478 chain A6
+ 471 chain A and not water5
+ 482 chain B5
+ 474 chain D6
+ 479 chain A6
+ 480 chain C7
+ 472 chain A and not water7
+ 483 chain B5
+ 475 chain D6
+ 481 chain C7
+ 480 chain A6
+ 473 chain A and not water5
+ 484 chain B6
+ 476 chain D6
+ 481 chain A5
+ 482 chain C6
+ 485 chain B6
+ 477 chain D6
+ 474 chain A and not water5
+ 483 chain C7
+ 482 chain A7
+ 478 chain D6
+ 486 chain B6
+ 475 chain A and not water6
+ 484 chain C7
+ 483 chain A6
+ 479 chain D6
+ 476 chain A and not water6
+ 485 chain C6
+ 484 chain A7
+ 487 chain B7
+ 480 chain D7
+ 477 chain A and not water6
+ 486 chain C7
+ 488 chain B6
+ 485 chain A7
+ 478 chain A and not water6
+ 481 chain D6
+ 487 chain C7
+ 489 chain B6
+ 479 chain A and not water6
+ 482 chain D6
+ 488 chain C6
+ 486 chain A6
+ 480 chain A and not water6
+ 490 chain B5
+ 481 chain A and not water5
+ 483 chain D6
+ 489 chain C6
+ 487 chain A5
+ 491 chain B5
+ 482 chain A and not water7
+ 484 chain D5
+ 490 chain C7
+ 488 chain A6
+ 492 chain B6
+ 485 chain D6
+ 483 chain A and not water5
+ 489 chain A6
+ 493 chain B7
+ 491 chain C6
+ 486 chain D6
+ 484 chain A and not water7
+ 490 chain A6
+ 492 chain C6
+ 494 chain B5
+ 487 chain D6
+ 485 chain A and not water7
+ 491 chain A7
+ 495 chain B6
+ 493 chain C7
+ 488 chain D6
+ 492 chain A7
+ 486 chain A and not water6
+ 496 chain B6
+ 489 chain D6
+ 494 chain C6
+ 487 chain A and not water5
+ 493 chain A7
+ 490 chain D6
+ 497 chain B7
+ 495 chain C7
+ 488 chain A and not water6
+ 494 chain A7
+ 491 chain D6
+ 498 chain B7
+ 489 chain A and not water6
+ 496 chain C7
+ 495 chain A5
+ 492 chain D7
+ 499 chain B6
+ 497 chain C7
+ 490 chain A and not water6
+ 496 chain A6
+ 493 chain D6
+ 500 chain B7
+ 491 chain A and not water7
+ 498 chain C6
+ 497 chain A5
+ 494 chain D7
+ 501 chain B7
+ 499 chain C7
+ 492 chain A and not water7
+ 498 chain A4
+ 495 chain D5
+ 502 chain B5
+ 500 chain C7
+ 493 chain A and not water7
+ 499 chain A5
+ 496 chain D6
+ 503 chain B6
+ 501 chain C7
+ 494 chain A and not water7
+ 500 chain A6
+ 504 chain B6
+ 497 chain D6
+ 502 chain C7
+ 495 chain A and not water5
+ 501 chain A6
+ 505 chain B6
+ 498 chain D6
+ 503 chain C7
+ 496 chain A and not water6
+ 502 chain A6
+ 499 chain D6
+ 506 chain B6
+ 504 chain C6
+ 497 chain A and not water5
+ 500 chain D7
+ 503 chain A5
+ 507 chain B6
+ 505 chain C6
+ 498 chain A and not water5
+ 501 chain D7
+ 504 chain A5
+ 508 chain B6
+ 506 chain C6
+ 502 chain D6
+ 499 chain A and not water5
+ 505 chain A5
+ 509 chain B7
+ 507 chain C6
+ 503 chain D5
+ 500 chain A and not water6
+ 510 chain B5
+ 506 chain A4
+ 501 chain A and not water6
+ 504 chain D6
+ 508 chain C5
+ 511 chain B4
+ 502 chain A and not water6
+ 509 chain C6
+ 505 chain D6
+ 507 chain A5
+ 510 chain C6
+ 503 chain A and not water5
+ 508 chain A6
+ 506 chain D6
+ 504 chain A and not water5
+ 511 chain C7
+ 509 chain A6
+ 507 chain D6
+ 505 chain A and not water5
+ 510 chain A6
+ 508 chain D4
+ 506 chain A and not water4
+ 511 chain A6
+ 509 chain D6
+ 507 chain A and not water7
+ 510 chain D5
+ 508 chain A and not water6
+ 511 chain D6
+ 509 chain A and not water6
+ 510 chain A and not water6
+ 511 chain A and not water6
+ 512 chain B4
+ 513 chain B5
+ 514 chain B7
+ 515 chain B4
+ 516 chain B6
+ 517 chain B6
+ 518 chain B6
+ 519 chain B6
+ 520 chain B6
+ 521 chain B6
+ 512 chain C7
+ 522 chain B5
+ 513 chain C6
+ 514 chain C7
+ 515 chain C6
+ 516 chain C6
+ 512 chain A6
+ 517 chain C6
+ 523 chain B6
+ 518 chain C7
+ 513 chain A5
+ 519 chain C7
+ 514 chain A5
+ 520 chain C6
+ 515 chain A6
+ 521 chain C6
+ 512 chain A and not water6
+ 516 chain A6
+ 522 chain C6
+ 513 chain A and not water5
+ 517 chain A7
+ 523 chain C6
+ 518 chain A5
+ 514 chain A and not water5
+ 519 chain A7
+ 520 chain A7
+ 515 chain A and not water6
+ 521 chain A6
+ 516 chain A and not water6
+ 522 chain A6
+ 517 chain A and not water7
+ 512 chain D6
+ 523 chain A6
+ 518 chain A and not water5
+ 524 chain A6
+ 524 chain B6
+ 513 chain D7
+ 519 chain A and not water7
+ 524 chain C6
+ 525 chain B6
+ 520 chain A and not water7
+ 514 chain D6
+ 525 chain C7
+ 525 chain A6
+ 521 chain A and not water6
+ 515 chain D5
+ 526 chain C6
+ 526 chain A6
+ 526 chain B6
+ 522 chain A and not water6
+ 516 chain D7
+ 527 chain C5
+ 527 chain A5
+ 527 chain B5
+ 523 chain A and not water6
+ 517 chain D6
+ 528 chain B6
+ 528 chain C6
+ 524 chain A and not water6
+ 528 chain A6
+ 529 chain B5
+ 529 chain C5
+ 518 chain D6
+ 525 chain A and not water6
+ 529 chain A4
+ 530 chain C5
+ 526 chain A and not water6
+ 530 chain B6
+ 519 chain D6
+ 530 chain A6
+ 527 chain A and not water5
+ 531 chain A6
+ 520 chain D6
+ 531 chain C5
+ 528 chain A and not water6
+ 531 chain B6
+ 532 chain C6
+ 532 chain B5
+ 521 chain D6
+ 532 chain A6
+ 529 chain A and not water4
+ 522 chain D5
+ 533 chain C7
+ 533 chain A6
+ 533 chain B6
+ 530 chain A and not water6
+ 523 chain D5
+ 534 chain C7
+ 534 chain A5
+ 534 chain B6
+ 531 chain A and not water6
+ 524 chain D5
+ 535 chain C6
+ 535 chain B6
+ 535 chain A5
+ 532 chain A and not water6
+ 525 chain D6
+ 536 chain C7
+ 536 chain B5
+ 536 chain A5
+ 533 chain A and not water6
+ 526 chain D6
+ 537 chain C6
+ 537 chain B5
+ 537 chain A7
+ 534 chain A and not water5
+ 527 chain D6
+ 538 chain C6
+ 538 chain B7
+ 535 chain A and not water5
+ 528 chain D5
+ 538 chain A7
+ 539 chain C6
+ 539 chain B6
+ 529 chain D6
+ 540 chain B6
+ 540 chain C6
+ 539 chain A7
+ 536 chain A and not water5
+ 530 chain D5
+ 541 chain B6
+ 541 chain C7
+ 540 chain A7
+ 537 chain A and not water7
+ 542 chain B6
+ 531 chain D6
+ 542 chain C5
+ 541 chain A5
+ 538 chain A and not water7
+ 543 chain B4
+ 532 chain D6
+ 543 chain C5
+ 542 chain A7
+ 539 chain A and not water7
+ 533 chain D7
+ 544 chain B7
+ 544 chain C6
+ 543 chain A5
+ 540 chain A and not water7
+ 545 chain B5
+ 534 chain D6
+ 545 chain C7
+ 544 chain A6
+ 541 chain A and not water5
+ 535 chain D7
+ 546 chain B5
+ 546 chain C5
+ 545 chain A7
+ 542 chain A and not water7
+ 536 chain D6
+ 547 chain B5
+ 546 chain A5
+ 547 chain C5
+ 543 chain A and not water5
+ 537 chain D6
+ 548 chain B6
+ 547 chain A5
+ 544 chain A and not water6
+ 548 chain C6
+ 538 chain D5
+ 549 chain B7
+ 548 chain A6
+ 545 chain A and not water7
+ 539 chain D5
+ 549 chain C7
+ 550 chain B6
+ 546 chain A and not water5
+ 549 chain A6
+ 540 chain D4
+ 550 chain C6
+ 547 chain A and not water6
+ 551 chain B6
+ 550 chain A5
+ 541 chain D6
+ 548 chain A and not water6
+ 551 chain C7
+ 552 chain B6
+ 551 chain A6
+ 549 chain A and not water6
+ 542 chain D6
+ 552 chain C6
+ 552 chain A6
+ 553 chain B6
+ 550 chain A and not water5
+ 543 chain D7
+ 553 chain C6
+ 551 chain A and not water6
+ 544 chain D7
+ 554 chain B7
+ 554 chain C7
+ 553 chain A6
+ 545 chain D6
+ 552 chain A and not water6
+ 555 chain B6
+ 554 chain A7
+ 555 chain C6
+ 546 chain D6
+ 556 chain B7
+ 553 chain A and not water6
+ 555 chain A6
+ 547 chain D7
+ 554 chain A and not water7
+ 556 chain C8
+ 557 chain B5
+ 556 chain A5
+ 555 chain A and not water6
+ 548 chain D7
+ 557 chain C6
+ 557 chain A5
+ 558 chain B6
+ 556 chain A and not water5
+ 549 chain D6
+ 558 chain C6
+ 558 chain A6
+ 559 chain B7
+ 557 chain A and not water5
+ 559 chain C6
+ 550 chain D7
+ 560 chain B7
+ 559 chain A5
+ 560 chain C7
+ 551 chain D6
+ 558 chain A and not water6
+ 561 chain B7
+ 560 chain A6
+ 552 chain D7
+ 561 chain C6
+ 559 chain A and not water5
+ 562 chain B6
+ 553 chain D5
+ 563 chain B5
+ 560 chain A and not water6
+ 561 chain A6
+ 562 chain C5
+ 554 chain D7
+ 564 chain B6
+ 561 chain A and not water6
+ 563 chain C9
+ 562 chain A5
+ 555 chain D7
+ 565 chain B5
+ 556 chain D7
+ 564 chain C8
+ 566 chain B5
+ 563 chain A6
+ 562 chain A and not water5
+ 557 chain D7
+ 567 chain B6
+ 565 chain C7
+ 558 chain D6
+ 564 chain A7
+ 563 chain A and not water6
+ 568 chain B6
+ 559 chain D7
+ 566 chain C7
+ 565 chain A7
+ 569 chain B7
+ 564 chain A and not water7
+ 560 chain D5
+ 567 chain C8
+ 566 chain A5
+ 570 chain B7
+ 565 chain A and not water7
+ 568 chain C7
+ 561 chain D4
+ 567 chain A5
+ 571 chain B7
+ 566 chain A and not water5
+ 569 chain C7
+ 562 chain D6
+ 568 chain A6
+ 572 chain B5
+ 567 chain A and not water5
+ 570 chain C5
+ 563 chain D7
+ 573 chain B5
+ 568 chain A and not water6
+ 569 chain A5
+ 571 chain C7
+ 574 chain B6
+ 572 chain C6
+ 569 chain A and not water5
+ 564 chain D6
+ 575 chain B5
+ 570 chain A5
+ 573 chain C7
+ 570 chain A and not water5
+ 576 chain B6
+ 565 chain D5
+ 571 chain A and not water5
+ 571 chain A4
+ 574 chain C6
+ 572 chain A6
+ 572 chain A and not water6
+ 566 chain D6
+ 577 chain B7
+ 575 chain C7
+ 573 chain A6
+ 567 chain D8
+ 573 chain A and not water6
+ 578 chain B7
+ 574 chain A4
+ 568 chain D6
+ 576 chain C5
+ 574 chain A and not water4
+ 579 chain B7
+ 569 chain D6
+ 575 chain A5
+ 575 chain A and not water5
+ 577 chain C6
+ 580 chain B6
+ 570 chain D5
+ 576 chain A6
+ 576 chain A and not water6
+ 581 chain B7
+ 578 chain C6
+ 571 chain D5
+ 577 chain A and not water6
+ 577 chain A6
+ 582 chain B5
+ 579 chain C5
+ 572 chain D5
+ 578 chain A6
+ 578 chain A and not water6
+ 583 chain B6
+ 580 chain C7
+ 579 chain A6
+ 573 chain D6
+ 579 chain A and not water6
+ 584 chain B6
+ 581 chain C6
+ 580 chain A6
+ 574 chain D6
+ 580 chain A and not water6
+ 585 chain B6
+ 582 chain C6
+ 575 chain D7
+ 581 chain A5
+ 581 chain A and not water5
+ 586 chain B6
+ 583 chain C5
+ 576 chain D5
+ 582 chain A5
+ 582 chain A and not water5
+ 587 chain B7
+ 577 chain D5
+ 584 chain C6
+ 583 chain A6
+ 583 chain A and not water6
+ 588 chain B6
+ 585 chain C7
+ 578 chain D6
+ 584 chain A and not water4
+ 584 chain A4
+ 589 chain B5
+ 579 chain D7
+ 586 chain C6
+ 585 chain A and not water6
+ 585 chain A6
+ 590 chain B5
+ 580 chain D5
+ 586 chain A and not water6
+ 586 chain A6
+ 587 chain C6
+ 591 chain B7
+ 581 chain D7
+ 587 chain A6
+ 587 chain A and not water6
+ 588 chain C5
+ 582 chain D6
+ 588 chain A7
+ 588 chain A and not water7
+ 592 chain B6
+ 583 chain D6
+ 589 chain C7
+ 589 chain A5
+ 589 chain A and not water5
+ 593 chain B6
+ 584 chain D6
+ 590 chain A7
+ 590 chain C6
+ 590 chain A and not water7
+ 594 chain B6
+ 585 chain D5
+ 591 chain A6
+ 591 chain C6
+ 595 chain B7
+ 592 chain A6
+ 586 chain D6
+ 591 chain A and not water6
+ 592 chain C6
+ 593 chain A6
+ 596 chain B7
+ 587 chain D7
+ 592 chain A and not water6
+ 597 chain B6
+ 588 chain D7
+ 593 chain C6
+ 594 chain A6
+ 593 chain A and not water6
+ 598 chain B6
+ 589 chain D7
+ 594 chain C6
+ 595 chain A7
+ 594 chain A and not water6
+ 599 chain B7
+ 590 chain D7
+ 595 chain C6
+ 595 chain A and not water7
+ 596 chain A6
+ 600 chain B6
+ 591 chain D5
+ 596 chain C6
+ 596 chain A and not water6
+ 597 chain A5
+ 601 chain B6
+ 592 chain D5
+ 597 chain C6
+ 597 chain A and not water5
+ 598 chain A6
+ 593 chain D6
+ 598 chain C6
+ 602 chain B7
+ 598 chain A and not water6
+ 599 chain A7
+ 599 chain C6
+ 594 chain D7
+ 603 chain B5
+ 599 chain A and not water6
+ 600 chain A7
+ 604 chain B6
+ 600 chain C7
+ 595 chain D7
+ 600 chain A and not water7
+ 601 chain A7
+ 596 chain D6
+ 601 chain C6
+ 605 chain B5
+ 601 chain A and not water7
+ 602 chain A6
+ 597 chain D7
+ 602 chain C6
+ 602 chain A and not water6
+ 606 chain B7
+ 603 chain A7
+ 598 chain D7
+ 603 chain C6
+ 603 chain A and not water7
+ 607 chain B6
+ 604 chain A6
+ 599 chain D6
+ 604 chain C7
+ 604 chain A and not water7
+ 608 chain B5
+ 605 chain A7
+ 600 chain D7
+ 605 chain A and not water7
+ 605 chain C7
+ 601 chain D6
+ 606 chain A8
+ 609 chain B7
+ 606 chain C6
+ 607 chain A7
+ 602 chain D7
+ 606 chain A and not water7
+ 610 chain B8
+ 607 chain C6
+ 603 chain D6
+ 608 chain A7
+ 607 chain A and not water6
+ 611 chain B6
+ 608 chain C6
+ 604 chain D8
+ 609 chain A6
+ 609 chain C5
+ 612 chain B4
+ 608 chain A and not water7
+ 610 chain A6
+ 610 chain C7
+ 609 chain A and not water6
+ 613 chain B6
+ 605 chain D5
+ 611 chain A6
+ 610 chain A and not water6
+ 606 chain D7
+ 612 chain A7
+ 611 chain A and not water6
+ 611 chain C7
+ 613 chain A7
+ 607 chain D5
+ 614 chain B7
+ 612 chain A and not water7
+ 612 chain C7
+ 614 chain A6
+ 608 chain D6
+ 613 chain A and not water7
+ 613 chain C7
+ 615 chain B6
+ 609 chain D5
+ 615 chain A6
+ 614 chain A and not water6
+ 614 chain C7
+ 616 chain B5
+ 616 chain A7
+ 610 chain D7
+ 615 chain C7
+ 615 chain A and not water6
+ 617 chain B8
+ 617 chain A6
+ 611 chain D5
+ 616 chain A and not water7
+ 616 chain C6
+ 618 chain B6
+ 618 chain A7
+ 612 chain D6
+ 617 chain A and not water6
+ 619 chain A6
+ 617 chain C6
+ 619 chain B6
+ 613 chain D6
+ 618 chain A and not water7
+ 618 chain C5
+ 620 chain A6
+ 620 chain B6
+ 614 chain D6
+ 619 chain C7
+ 619 chain A and not water6
+ 621 chain A6
+ 621 chain B5
+ 615 chain D7
+ 620 chain C5
+ 620 chain A and not water5
+ 622 chain B6
+ 622 chain A6
+ 616 chain D7
+ 621 chain C7
+ 621 chain A and not water6
+ 623 chain A6
+ 623 chain B6
+ 617 chain D7
+ 622 chain C6
+ 622 chain A and not water6
+ 624 chain A6
+ 624 chain B6
+ 623 chain C7
+ 618 chain D5
+ 623 chain A and not water6
+ 625 chain A6
+ 619 chain D7
+ 625 chain B6
+ 624 chain C7
+ 624 chain A and not water6
+ 626 chain A6
+ 625 chain A and not water6
+ 620 chain D5
+ 626 chain B6
+ 625 chain C6
+ 627 chain A5
+ 626 chain A and not water6
+ 627 chain B6
+ 628 chain A6
+ 621 chain D6
+ 627 chain A and not water5
+ 626 chain C7
+ 629 chain A5
+ 628 chain B5
+ 622 chain D5
+ 628 chain A and not water6
+ 627 chain C7
+ 630 chain A5
+ 629 chain B5
+ 623 chain D6
+ 629 chain A and not water5
+ 631 chain A6
+ 630 chain B7
+ 628 chain C6
+ 632 chain A5
+ 631 chain B5
+ 624 chain D7
+ 630 chain A and not water5
+ 629 chain C7
+ 633 chain A6
+ 631 chain A and not water6
+ 632 chain B6
+ 625 chain D6
+ 630 chain C8
+ 634 chain A4
+ 632 chain A and not water4
+ 626 chain D5
+ 633 chain B5
+ 631 chain C7
+ 635 chain A6
+ 633 chain A and not water6
+ 627 chain D6
+ 634 chain B5
+ 632 chain C5
+ 636 chain A7
+ 634 chain A and not water4
+ 628 chain D6
+ 635 chain B4
+ 635 chain A and not water6
+ 633 chain C6
+ 637 chain A8
+ 629 chain D6
+ 636 chain B4
+ 636 chain A and not water7
+ 634 chain C5
+ 638 chain A6
+ 637 chain A and not water8
+ 630 chain D7
+ 635 chain C6
+ 637 chain B6
+ 639 chain A6
+ 638 chain A and not water6
+ 631 chain D7
+ 636 chain C6
+ 640 chain A5
+ 638 chain B7
+ 639 chain A and not water6
+ 632 chain D7
+ 637 chain C6
+ 641 chain A6
+ 640 chain A and not water5
+ 639 chain B5
+ 633 chain D6
+ 638 chain C6
+ 642 chain A6
+ 641 chain A and not water6
+ 634 chain D6
+ 640 chain B6
+ 639 chain C6
+ 643 chain A7
+ 642 chain A and not water6
+ 635 chain D6
+ 644 chain A6
+ 641 chain B5
+ 640 chain C6
+ 643 chain A and not water7
+ 645 chain A6
+ 636 chain D6
+ 641 chain C6
+ 644 chain A and not water6
+ 642 chain B5
+ 646 chain A5
+ 637 chain D6
+ 642 chain C6
+ 645 chain A and not water6
+ 643 chain B5
+ 647 chain A6
+ 638 chain D6
+ 643 chain C5
+ 646 chain A and not water5
+ 644 chain B6
+ 648 chain A7
+ 639 chain D7
+ 647 chain A and not water6
+ 644 chain C7
+ 649 chain A6
+ 645 chain B6
+ 648 chain A and not water7
+ 640 chain D7
+ 645 chain C5
+ 650 chain A7
+ 646 chain B6
+ 646 chain C5
+ 649 chain A and not water6
+ 641 chain D7
+ 651 chain A5
+ 647 chain B7
+ 647 chain C7
+ 650 chain A and not water7
+ 642 chain D6
+ 652 chain A6
+ 648 chain B5
+ 643 chain D6
+ 651 chain A and not water5
+ 653 chain A5
+ 648 chain C6
+ 649 chain B6
+ 644 chain D7
+ 652 chain A and not water6
+ 654 chain A5
+ 650 chain B7
+ 649 chain C5
+ 645 chain D5
+ 653 chain A and not water5
+ 655 chain A5
+ 651 chain B6
+ 646 chain D5
+ 650 chain C5
+ 656 chain A6
+ 652 chain B5
+ 654 chain A and not water5
+ 647 chain D5
+ 651 chain C5
+ 653 chain B6
+ 657 chain A6
+ 655 chain A and not water5
+ 648 chain D7
+ 652 chain C6
+ 654 chain B6
+ 658 chain A6
+ 656 chain A and not water6
+ 649 chain D6
+ 655 chain B7
+ 653 chain C5
+ 659 chain A6
+ 656 chain B7
+ 657 chain A and not water6
+ 657 chain B6
+ 650 chain D6
+ 654 chain C6
+ 660 chain A6
+ 658 chain A and not water6
+ 651 chain D6
+ 655 chain C7
+ 658 chain B6
+ 661 chain A6
+ 659 chain A and not water6
+ 652 chain D6
+ 656 chain C5
+ 659 chain B7
+ 662 chain A5
+ 660 chain A and not water6
+ 653 chain D5
+ 657 chain C7
+ 663 chain A5
+ 660 chain B6
+ 654 chain D6
+ 658 chain C6
+ 661 chain A and not water6
+ 661 chain B6
+ 664 chain A5
+ 659 chain C7
+ 655 chain D6
+ 662 chain B6
+ 660 chain C5
+ 662 chain A and not water5
+ 665 chain A7
+ 656 chain D5
+ 663 chain B5
+ 661 chain C6
+ 664 chain B6
+ 663 chain A and not water5
+ 666 chain A6
+ 662 chain C7
+ 657 chain D7
+ 663 chain C6
+ 665 chain B5
+ 664 chain A and not water5
+ 667 chain A7
+ 658 chain D6
+ 664 chain C6
+ 666 chain B6
+ 665 chain A and not water7
+ 668 chain A7
+ 659 chain D7
+ 665 chain C7
+ 666 chain A and not water6
+ 667 chain B6
+ 669 chain A6
+ 660 chain D7
+ 667 chain A and not water7
+ 668 chain B7
+ 668 chain A and not water7
+ 666 chain C6
+ 670 chain A5
+ 669 chain B6
+ 661 chain D6
+ 667 chain C6
+ 671 chain A7
+ 669 chain A and not water6
+ 670 chain B7
+ 662 chain D6
+ 668 chain C8
+ 672 chain A5
+ 670 chain A and not water5
+ 669 chain C7
+ 671 chain B6
+ 673 chain A5
+ 663 chain D5
+ 671 chain A and not water7
+ 670 chain C7
+ 672 chain B6
+ 674 chain A6
+ 672 chain A and not water5
+ 664 chain D7
+ 673 chain B6
+ 671 chain C7
+ 675 chain A6
+ 673 chain A and not water5
+ 665 chain D6
+ 674 chain B6
+ 674 chain A and not water6
+ 676 chain A5
+ 675 chain B7
+ 672 chain C7
+ 666 chain D6
+ 676 chain B5
+ 677 chain A6
+ 667 chain D5
+ 673 chain C6
+ 675 chain A and not water6
+ 674 chain C6
+ 676 chain A and not water5
+ 678 chain A6
+ 668 chain D5
+ 677 chain B5
+ 675 chain C6
+ 679 chain A6
+ 669 chain D6
+ 678 chain B7
+ 677 chain A and not water6
+ 676 chain C6
+ 680 chain A5
+ 679 chain B6
+ 670 chain D8
+ 678 chain A and not water6
+ 677 chain C5
+ 681 chain A6
+ 680 chain B6
+ 671 chain D6
+ 679 chain A and not water6
+ 682 chain A6
+ 678 chain C6
+ 681 chain B5
+ 683 chain A7
+ 680 chain A and not water5
+ 672 chain D6
+ 679 chain C6
+ 682 chain B5
+ 681 chain A and not water6
+ 680 chain C6
+ 684 chain A6
+ 673 chain D8
+ 683 chain B6
+ 682 chain A and not water6
+ 681 chain C6
+ 685 chain A7
+ 674 chain D5
+ 684 chain B5
+ 683 chain A and not water7
+ 682 chain C6
+ 685 chain B6
+ 684 chain A and not water6
+ 686 chain A6
+ 675 chain D6
+ 683 chain C6
+ 685 chain A and not water7
+ 686 chain B6
+ 687 chain A6
+ 676 chain D7
+ 684 chain C6
+ 686 chain A and not water6
+ 687 chain B6
+ 685 chain C6
+ 677 chain D6
+ 688 chain A6
+ 687 chain A and not water6
+ 688 chain B5
+ 689 chain A6
+ 686 chain C6
+ 678 chain D6
+ 689 chain B7
+ 688 chain A and not water6
+ 687 chain C5
+ 690 chain A7
+ 679 chain D6
+ 689 chain A and not water6
+ 690 chain B7
+ 688 chain C5
+ 691 chain A6
+ 690 chain A and not water6
+ 691 chain B7
+ 689 chain C7
+ 680 chain D6
+ 692 chain B6
+ 690 chain C7
+ 681 chain D5
+ 691 chain A and not water6
+ 692 chain A6
+ 682 chain D4
+ 692 chain A and not water6
+ 691 chain C4
+ 693 chain A6
+ 693 chain B6
+ 683 chain D5
+ 693 chain A and not water6
+ 692 chain C6
+ 694 chain A5
+ 684 chain D6
+ 694 chain B6
+ 694 chain A and not water5
+ 693 chain C5
+ 695 chain A6
+ 695 chain B6
+ 685 chain D5
+ 695 chain A and not water6
+ 694 chain C6
+ 696 chain A5
+ 696 chain B5
+ 686 chain D6
+ 695 chain C6
+ 697 chain A6
+ 696 chain A and not water5
+ 687 chain D6
+ 697 chain B5
+ 696 chain C5
+ 698 chain A7
+ 697 chain A and not water6
+ 688 chain D5
+ 699 chain A6
+ 698 chain B6
+ 697 chain C5
+ 689 chain D5
+ 698 chain A and not water7
+ 700 chain A7
+ 699 chain B6
+ 698 chain C6
+ 690 chain D5
+ 701 chain A6
+ 699 chain A and not water6
+ 700 chain B6
+ 699 chain C7
+ 691 chain D6
+ 702 chain A7
+ 700 chain A and not water7
+ 700 chain C6
+ 692 chain D6
+ 701 chain B6
+ 703 chain A7
+ 701 chain A and not water6
+ 702 chain B5
+ 704 chain A5
+ 693 chain D5
+ 701 chain C6
+ 702 chain A and not water7
+ 703 chain B6
+ 705 chain A6
+ 702 chain C6
+ 703 chain A and not water7
+ 694 chain D6
+ 704 chain B5
+ 703 chain C6
+ 705 chain B5
+ 706 chain A6
+ 695 chain D7
+ 704 chain A and not water5
+ 704 chain C6
+ 706 chain B7
+ 707 chain A6
+ 696 chain D6
+ 705 chain A and not water7
+ 705 chain C6
+ 707 chain B6
+ 706 chain C5
+ 706 chain A and not water6
+ 708 chain A6
+ 708 chain B6
+ 697 chain D6
+ 707 chain C7
+ 707 chain A and not water6
+ 709 chain A4
+ 708 chain A and not water6
+ 709 chain B7
+ 698 chain D6
+ 708 chain C6
+ 709 chain A and not water4
+ 709 chain C6
+ 710 chain B6
+ 710 chain A6
+ 699 chain D6
+ 710 chain C5
+ 711 chain B7
+ 711 chain A6
+ 710 chain A and not water6
+ 711 chain C5
+ 700 chain D6
+ 711 chain A and not water6
+ 701 chain D7
+ 712 chain C7
+ 712 chain B8
+ 712 chain A6
+ 712 chain A and not water6
+ 702 chain D6
+ 713 chain B7
+ 713 chain C5
+ 713 chain A4
+ 703 chain D5
+ 713 chain A and not water4
+ 714 chain B5
+ 714 chain C6
+ 714 chain A6
+ 714 chain A and not water6
+ 704 chain D7
+ 715 chain C6
+ 715 chain B7
+ 715 chain A6
+ 705 chain D8
+ 716 chain A5
+ 716 chain B6
+ 715 chain A and not water6
+ 716 chain C6
+ 706 chain D7
+ 717 chain A6
+ 717 chain B7
+ 717 chain C5
+ 716 chain A and not water5
+ 707 chain D7
+ 718 chain B6
+ 718 chain A5
+ 718 chain C6
+ 708 chain D7
+ 719 chain B5
+ 717 chain A and not water6
+ 719 chain C7
+ 709 chain D7
+ 719 chain A5
+ 720 chain C4
+ 720 chain B6
+ 718 chain A and not water5
+ 710 chain D7
+ 720 chain A6
+ 721 chain B7
+ 719 chain A and not water5
+ 721 chain C5
+ 711 chain D7
+ 722 chain B5
+ 721 chain A7
+ 720 chain A and not water6
+ 722 chain C6
+ 723 chain B6
+ 712 chain D5
+ 722 chain A6
+ 721 chain A and not water7
+ 723 chain C7
+ 724 chain B6
+ 713 chain D8
+ 722 chain A and not water6
+ 724 chain C6
+ 723 chain A7
+ 714 chain D5
+ 723 chain A and not water7
+ 725 chain C7
+ 724 chain A7
+ 725 chain B5
+ 725 chain A6
+ 715 chain D7
+ 726 chain C6
+ 726 chain B5
+ 726 chain A6
+ 724 chain A and not water7
+ 727 chain A5
+ 727 chain C7
+ 727 chain B6
+ 716 chain D7
+ 725 chain A and not water6
+ 726 chain A and not water6
+ 728 chain B6
+ 717 chain D7
+ 728 chain A5
+ 728 chain C6
+ 727 chain A and not water5
+ 718 chain D7
+ 729 chain A6
+ 728 chain A and not water5
+ 729 chain C6
+ 729 chain B6
+ 719 chain D6
+ 729 chain A and not water6
+ 730 chain A6
+ 730 chain B4
+ 730 chain C6
+ 720 chain D7
+ 731 chain A6
+ 731 chain B5
+ 730 chain A and not water6
+ 731 chain C6
+ 732 chain A6
+ 732 chain B7
+ 721 chain D7
+ 731 chain A and not water6
+ 732 chain C6
+ 722 chain D7
+ 733 chain A6
+ 732 chain A and not water6
+ 733 chain C6
+ 733 chain B4
+ 723 chain D7
+ 734 chain A6
+ 733 chain A and not water6
+ 734 chain C5
+ 724 chain D7
+ 734 chain B6
+ 735 chain A6
+ 734 chain A and not water6
+ 735 chain C6
+ 725 chain D5
+ 735 chain B6
+ 736 chain A6
+ 735 chain A and not water6
+ 736 chain C6
+ 726 chain D7
+ 736 chain B7
+ 737 chain A6
+ 736 chain A and not water6
+ 737 chain C6
+ 727 chain D6
+ 738 chain A6
+ 737 chain B7
+ 737 chain A and not water6
+ 738 chain C6
+ 728 chain D6
+ 738 chain B7
+ 739 chain A7
+ 738 chain A and not water6
+ 739 chain C7
+ 729 chain D6
+ 740 chain A5
+ 739 chain B6
+ 739 chain A and not water7
+ 740 chain C6
+ 730 chain D6
+ 740 chain B6
+ 741 chain A6
+ 741 chain C7
+ 740 chain A and not water5
+ 731 chain D6
+ 742 chain A7
+ 742 chain C4
+ 741 chain B6
+ 732 chain D5
+ 741 chain A and not water6
+ 743 chain C6
+ 743 chain A6
+ 733 chain D5
+ 742 chain A and not water7
+ 742 chain B6
+ 744 chain C5
+ 744 chain A6
+ 743 chain A and not water6
+ 734 chain D6
+ 743 chain B6
+ 745 chain C5
+ 745 chain A5
+ 744 chain A and not water6
+ 735 chain D6
+ 744 chain B6
+ 746 chain C5
+ 746 chain A6
+ 745 chain A and not water5
+ 736 chain D6
+ 745 chain B6
+ 746 chain B6
+ 747 chain A7
+ 737 chain D5
+ 746 chain A and not water6
+ 747 chain C6
+ 747 chain B7
+ 748 chain A5
+ 738 chain D6
+ 747 chain A and not water7
+ 748 chain C7
+ 739 chain D6
+ 749 chain A7
+ 748 chain A and not water5
+ 749 chain C6
+ 748 chain B5
+ 740 chain D7
+ 750 chain A5
+ 749 chain A and not water7
+ 750 chain C6
+ 749 chain B5
+ 751 chain A7
+ 741 chain D6
+ 750 chain A and not water6
+ 751 chain C6
+ 750 chain B5
+ 742 chain D6
+ 751 chain A and not water7
+ 752 chain A6
+ 752 chain C5
+ 743 chain D7
+ 751 chain B6
+ 753 chain C6
+ 753 chain A6
+ 752 chain A and not water6
+ 744 chain D7
+ 752 chain B6
+ 754 chain C6
+ 754 chain A6
+ 753 chain A and not water6
+ 745 chain D6
+ 753 chain B6
+ 755 chain C7
+ 755 chain A6
+ 746 chain D6
+ 754 chain A and not water6
+ 754 chain B6
+ 756 chain C6
+ 756 chain A5
+ 747 chain D4
+ 755 chain B5
+ 755 chain A and not water6
+ 757 chain A6
+ 757 chain C5
+ 756 chain B5
+ 748 chain D6
+ 758 chain A6
+ 756 chain A and not water5
+ 758 chain C4
+ 749 chain D6
+ 759 chain A6
+ 757 chain B6
+ 759 chain C6
+ 750 chain D6
+ 757 chain A and not water6
+ 760 chain A7
+ 758 chain B7
+ 760 chain C7
+ 751 chain D7
+ 761 chain C6
+ 758 chain A and not water6
+ 752 chain D6
+ 761 chain A6
+ 759 chain B7
+ 753 chain D5
+ 762 chain C5
+ 760 chain B5
+ 762 chain A6
+ 759 chain A and not water6
+ 754 chain D6
+ 763 chain C5
+ 761 chain B7
+ 763 chain A5
+ 760 chain A and not water7
+ 755 chain D7
+ 762 chain B6
+ 764 chain C5
+ 764 chain A5
+ 761 chain A and not water6
+ 756 chain D7
+ 765 chain C5
+ 763 chain B5
+ 765 chain A6
+ 757 chain D7
+ 762 chain A and not water5
+ 764 chain B6
+ 766 chain C5
+ 766 chain A5
+ 758 chain D5
+ 763 chain A and not water7
+ 765 chain B4
+ 767 chain C5
+ 767 chain A6
+ 759 chain D5
+ 764 chain A and not water5
+ 760 chain D6
+ 766 chain B6
+ 768 chain C5
+ 768 chain A6
+ 765 chain A and not water6
+ 761 chain D7
+ 767 chain B5
+ 769 chain C4
+ 769 chain A6
+ 766 chain A and not water5
+ 762 chain D6
+ 768 chain B4
+ 770 chain C5
+ 770 chain A6
+ 767 chain A and not water6
+ 763 chain D6
+ 769 chain B6
+ 771 chain C5
+ 771 chain A7
+ 768 chain A and not water6
+ 772 chain A6
+ 770 chain B5
+ 764 chain D7
+ 772 chain C5
+ 769 chain A and not water6
+ 773 chain A6
+ 771 chain B5
+ 765 chain D5
+ 773 chain C4
+ 770 chain A and not water6
+ 774 chain A7
+ 772 chain B6
+ 766 chain D6
+ 774 chain C6
+ 771 chain A and not water7
+ 773 chain B6
+ 775 chain C7
+ 775 chain A8
+ 767 chain D7
+ 772 chain A and not water6
+ 774 chain B5
+ 776 chain C6
+ 773 chain A and not water6
+ 768 chain D7
+ 776 chain A7
+ 775 chain B6
+ 777 chain C6
+ 774 chain A and not water7
+ 776 chain B7
+ 777 chain A6
+ 769 chain D7
+ 778 chain C6
+ 775 chain A and not water6
+ 777 chain B5
+ 778 chain A7
+ 779 chain C7
+ 770 chain D7
+ 778 chain B7
+ 776 chain A and not water7
+ 779 chain A7
+ 780 chain C7
+ 771 chain D6
+ 779 chain B5
+ 777 chain A and not water6
+ 780 chain A7
+ 781 chain C7
+ 772 chain D7
+ 780 chain B6
+ 778 chain A and not water7
+ 782 chain C5
+ 781 chain A7
+ 773 chain D7
+ 781 chain B6
+ 779 chain A and not water7
+ 782 chain A7
+ 783 chain C7
+ 774 chain D7
+ 782 chain B6
+ 780 chain A and not water7
+ 775 chain D6
+ 783 chain A7
+ 784 chain C7
+ 783 chain B6
+ 776 chain D6
+ 781 chain A and not water7
+ 784 chain A7
+ 785 chain C7
+ 784 chain B6
+ 782 chain A and not water7
+ 777 chain D7
+ 785 chain A7
+ 785 chain B5
+ 786 chain C7
+ 783 chain A and not water7
+ 778 chain D7
+ 786 chain B6
+ 786 chain A7
+ 787 chain C6
+ 784 chain A and not water7
+ 779 chain D6
+ 787 chain B4
+ 787 chain A6
+ 788 chain C5
+ 780 chain D7
+ 788 chain A7
+ 788 chain B6
+ 785 chain A and not water7
+ 789 chain C6
+ 789 chain A8
+ 789 chain B6
+ 781 chain D5
+ 790 chain A8
+ 790 chain C6
+ 786 chain A and not water7
+ 790 chain B5
+ 791 chain A7
+ 787 chain A and not water6
+ 791 chain C6
+ 782 chain D6
+ 791 chain B6
+ 792 chain B6
+ 788 chain A and not water7
+ 792 chain C5
+ 783 chain D7
+ 792 chain A6
+ 789 chain A and not water8
+ 793 chain C5
+ 790 chain A and not water8
+ 793 chain B4
+ 784 chain D7
+ 794 chain C7
+ 793 chain A6
+ 791 chain A and not water7
+ 785 chain D6
+ 794 chain B7
+ 795 chain C4
+ 786 chain D6
+ 792 chain A and not water6
+ 795 chain B6
+ 794 chain A7
+ 793 chain A and not water6
+ 787 chain D6
+ 796 chain C7
+ 796 chain B6
+ 795 chain A8
+ 794 chain A and not water7
+ 788 chain D7
+ 797 chain C6
+ 796 chain A8
+ 795 chain A and not water8
+ 797 chain B6
+ 789 chain D7
+ 798 chain C5
+ 790 chain D6
+ 798 chain B6
+ 799 chain C7
+ 800 chain C6
+ 791 chain D6
+ 799 chain B5
+ 796 chain A and not water8
+ 797 chain A7
+ 801 chain C5
+ 800 chain B6
+ 792 chain D7
+ 802 chain C5
+ 801 chain B7
+ 793 chain D7
+ 797 chain A and not water7
+ 803 chain C6
+ 794 chain D7
+ 802 chain B6
+ 798 chain A and not water6
+ 804 chain C6
+ 795 chain D6
+ 798 chain A6
+ 799 chain A and not water7
+ 803 chain B6
+ 805 chain C5
+ 796 chain D6
+ 799 chain A7
+ 800 chain A and not water7
+ 797 chain D7
+ 806 chain C6
+ 800 chain A7
+ 804 chain B5
+ 801 chain A and not water7
+ 807 chain C6
+ 798 chain D6
+ 805 chain B4
+ 801 chain A7
+ 802 chain A and not water7
+ 808 chain C6
+ 799 chain D6
+ 806 chain B7
+ 803 chain A and not water6
+ 802 chain A7
+ 809 chain C6
+ 800 chain D7
+ 807 chain B7
+ 804 chain A and not water7
+ 803 chain A6
+ 810 chain C4
+ 801 chain D6
+ 805 chain A and not water7
+ 808 chain B5
+ 804 chain A7
+ 811 chain C7
+ 809 chain B5
+ 802 chain D5
+ 805 chain A7
+ 806 chain A and not water8
+ 812 chain C7
+ 810 chain B6
+ 806 chain A8
+ 807 chain A and not water6
+ 811 chain B5
+ 803 chain D6
+ 807 chain A6
+ 813 chain C6
+ 808 chain A and not water6
+ 804 chain D6
+ 808 chain A6
+ 814 chain C6
+ 812 chain B4
+ 809 chain A and not water6
+ 815 chain C6
+ 809 chain A6
+ 813 chain B5
+ 810 chain A and not water7
+ 805 chain D7
+ 816 chain C6
+ 811 chain A and not water6
+ 814 chain B6
+ 810 chain A7
+ 817 chain C7
+ 806 chain D7
+ 811 chain A6
+ 812 chain A and not water7
+ 815 chain B5
+ 818 chain C7
+ 807 chain D5
+ 812 chain A7
+ 813 chain A and not water7
+ 813 chain A7
+ 816 chain B5
+ 819 chain C6
+ 808 chain D7
+ 814 chain A and not water6
+ 814 chain A6
+ 815 chain A and not water7
+ 820 chain C6
+ 817 chain B6
+ 809 chain D6
+ 815 chain A7
+ 816 chain A and not water7
+ 818 chain B6
+ 821 chain C6
+ 810 chain D6
+ 816 chain A7
+ 817 chain A and not water6
+ 819 chain B6
+ 822 chain C7
+ 811 chain D6
+ 817 chain A7
+ 818 chain A and not water6
+ 820 chain B7
+ 812 chain D6
+ 823 chain C5
+ 818 chain A7
+ 819 chain A and not water6
+ 821 chain B5
+ 813 chain D6
+ 824 chain C7
+ 819 chain A6
+ 822 chain B5
+ 820 chain A and not water6
+ 814 chain D7
+ 825 chain C7
+ 823 chain B5
+ 821 chain A and not water6
+ 820 chain A6
+ 815 chain D7
+ 826 chain C6
+ 822 chain A and not water5
+ 816 chain D5
+ 824 chain B5
+ 827 chain C6
+ 821 chain A6
+ 823 chain A and not water7
+ 817 chain D6
+ 828 chain C5
+ 825 chain B6
+ 822 chain A5
+ 824 chain A and not water7
+ 818 chain D6
+ 829 chain C5
+ 826 chain B4
+ 823 chain A7
+ 825 chain A and not water7
+ 819 chain D6
+ 830 chain C6
+ 827 chain B7
+ 826 chain A and not water6
+ 824 chain A7
+ 820 chain D5
+ 831 chain C6
+ 827 chain A and not water7
+ 828 chain B6
+ 821 chain D7
+ 825 chain A7
+ 828 chain A and not water7
+ 832 chain C6
+ 829 chain B6
+ 822 chain D6
+ 826 chain A6
+ 833 chain C6
+ 829 chain A and not water7
+ 823 chain D6
+ 830 chain B6
+ 827 chain A7
+ 834 chain C7
+ 830 chain A and not water8
+ 824 chain D6
+ 831 chain B6
+ 835 chain C6
+ 831 chain A and not water7
+ 828 chain A7
+ 825 chain D7
+ 832 chain B6
+ 836 chain C6
+ 826 chain D6
+ 829 chain A7
+ 832 chain A and not water8
+ 837 chain C7
+ 833 chain B5
+ 827 chain D7
+ 830 chain A8
+ 833 chain A and not water7
+ 838 chain C7
+ 834 chain B6
+ 831 chain A7
+ 839 chain C5
+ 834 chain A and not water8
+ 828 chain D6
+ 835 chain B6
+ 832 chain A8
+ 835 chain A and not water8
+ 836 chain B4
+ 829 chain D6
+ 833 chain A7
+ 840 chain C6
+ 836 chain A and not water8
+ 837 chain B6
+ 834 chain A8
+ 841 chain C5
+ 830 chain D5
+ 837 chain A and not water7
+ 838 chain B5
+ 835 chain A8
+ 831 chain D7
+ 842 chain C7
+ 838 chain A and not water8
+ 839 chain B6
+ 836 chain A8
+ 839 chain A and not water8
+ 840 chain B6
+ 843 chain C5
+ 832 chain D6
+ 840 chain A and not water8
+ 837 chain A7
+ 844 chain C8
+ 833 chain D6
+ 841 chain A and not water8
+ 841 chain B7
+ 838 chain A8
+ 839 chain A8
+ 845 chain C7
+ 842 chain A and not water7
+ 834 chain D6
+ 842 chain B7
+ 840 chain A8
+ 843 chain A and not water8
+ 846 chain C7
+ 843 chain B6
+ 841 chain A8
+ 835 chain D6
+ 844 chain A and not water7
+ 842 chain A7
+ 844 chain B6
+ 847 chain C7
+ 845 chain A and not water7
+ 843 chain A8
+ 836 chain D6
+ 845 chain B6
+ 846 chain A and not water8
+ 844 chain A7
+ 848 chain C7
+ 837 chain D6
+ 846 chain B5
+ 847 chain A and not water6
+ 848 chain A and not water8
+ 845 chain A7
+ 838 chain D5
+ 849 chain C6
+ 847 chain B5
+ 839 chain D7
+ 850 chain C6
+ 846 chain A8
+ 848 chain B6
+ 849 chain A and not water8
+ 840 chain D7
+ 851 chain C6
+ 847 chain A6
+ 849 chain B5
+ 850 chain A and not water7
+ 841 chain D6
+ 852 chain C6
+ 848 chain A8
+ 850 chain B7
+ 851 chain A and not water8
+ 842 chain D5
+ 849 chain A8
+ 853 chain C5
+ 851 chain B6
+ 852 chain A and not water8
+ 850 chain A7
+ 854 chain C6
+ 852 chain B4
+ 843 chain D6
+ 853 chain A and not water6
+ 851 chain A8
+ 853 chain B7
+ 855 chain C5
+ 854 chain A and not water8
+ 844 chain D6
+ 854 chain B6
+ 852 chain A8
+ 855 chain B6
+ 856 chain C6
+ 845 chain D8
+ 855 chain A and not water7
+ 853 chain A6
+ 856 chain B6
+ 857 chain C6
+ 846 chain D5
+ 857 chain B6
+ 854 chain A8
+ 856 chain A and not water8
+ 858 chain B6
+ 847 chain D5
+ 858 chain C5
+ 857 chain A and not water8
+ 855 chain A7
+ 859 chain B5
+ 848 chain D6
+ 859 chain C5
+ 858 chain A and not water8
+ 856 chain A8
+ 860 chain B5
+ 849 chain D7
+ 859 chain A and not water8
+ 860 chain C6
+ 857 chain A8
+ 861 chain B6
+ 860 chain A and not water5
+ 861 chain C6
+ 858 chain A8
+ 850 chain D5
+ 859 chain A8
+ 862 chain B5
+ 861 chain A and not water6
+ 862 chain C5
+ 851 chain D7
+ 860 chain A5
+ 863 chain C6
+ 862 chain A and not water6
+ 863 chain B5
+ 852 chain D8
+ 861 chain A7
+ 863 chain A and not water7
+ 862 chain A8
+ 864 chain B6
+ 853 chain D5
+ 864 chain C6
+ 863 chain A7
+ 864 chain A and not water6
+ 865 chain B5
+ 854 chain D7
+ 864 chain A6
+ 865 chain C6
+ 865 chain A and not water6
+ 855 chain D6
+ 866 chain B5
+ 865 chain A6
+ 866 chain C5
+ 867 chain B7
+ 856 chain D6
+ 866 chain A and not water8
+ 867 chain C5
+ 866 chain A8
+ 868 chain B6
+ 867 chain A and not water6
+ 867 chain A6
+ 868 chain C6
+ 857 chain D6
+ 868 chain A7
+ 869 chain C6
+ 858 chain D6
+ 869 chain B5
+ 868 chain A and not water7
+ 869 chain A8
+ 870 chain C4
+ 859 chain D6
+ 869 chain A and not water8
+ 870 chain B5
+ 870 chain A7
+ 871 chain C5
+ 860 chain D6
+ 870 chain A and not water7
+ 871 chain B5
+ 871 chain A6
+ 861 chain D6
+ 872 chain C6
+ 872 chain B6
+ 871 chain A and not water6
+ 872 chain A6
+ 862 chain D6
+ 873 chain C5
+ 873 chain B6
+ 863 chain D6
+ 873 chain A6
+ 872 chain A and not water6
+ 874 chain C5
+ 874 chain B6
+ 864 chain D5
+ 874 chain A6
+ 873 chain A and not water6
+ 875 chain B5
+ 865 chain D6
+ 875 chain C6
+ 875 chain A8
+ 876 chain B6
+ 874 chain A and not water6
+ 866 chain D6
+ 876 chain C5
+ 876 chain A6
+ 877 chain B6
+ 867 chain D7
+ 875 chain A and not water8
+ 877 chain C6
+ 878 chain B4
+ 877 chain A8
+ 878 chain C6
+ 868 chain D6
+ 876 chain A and not water6
+ 879 chain B6
+ 869 chain D7
+ 879 chain C5
+ 878 chain A6
+ 880 chain B4
+ 877 chain A and not water8
+ 870 chain D6
+ 880 chain C4
+ 879 chain A6
+ 881 chain B4
+ 878 chain A and not water6
+ 881 chain C5
+ 871 chain D6
+ 882 chain B7
+ 880 chain A7
+ 879 chain A and not water6
+ 882 chain C4
+ 872 chain D6
+ 883 chain B7
+ 881 chain A6
+ 880 chain A and not water6
+ 883 chain C6
+ 873 chain D6
+ 884 chain B6
+ 881 chain A and not water6
+ 882 chain A6
+ 884 chain C5
+ 874 chain D6
+ 885 chain B6
+ 882 chain A and not water6
+ 875 chain D6
+ 883 chain A7
+ 885 chain C6
+ 886 chain B6
+ 883 chain A and not water7
+ 876 chain D6
+ 886 chain C5
+ 887 chain B6
+ 884 chain A7
+ 884 chain A and not water7
+ 877 chain D6
+ 887 chain C6
+ 888 chain B6
+ 878 chain D6
+ 885 chain A and not water6
+ 885 chain A6
+ 888 chain C5
+ 889 chain B5
+ 879 chain D6
+ 886 chain A and not water5
+ 886 chain A5
+ 889 chain C6
+ 890 chain B5
+ 880 chain D7
+ 887 chain A and not water7
+ 887 chain A7
+ 890 chain C7
+ 891 chain B6
+ 881 chain D7
+ 888 chain A and not water7
+ 891 chain C6
+ 892 chain B6
+ 888 chain A6
+ 882 chain D6
+ 889 chain A and not water8
+ 892 chain C6
+ 893 chain B8
+ 883 chain D5
+ 889 chain A8
+ 890 chain A and not water7
+ 893 chain C5
+ 894 chain B6
+ 891 chain A and not water8
+ 884 chain D5
+ 890 chain A7
+ 894 chain C7
+ 892 chain A and not water7
+ 895 chain B6
+ 885 chain D6
+ 895 chain C6
+ 891 chain A7
+ 896 chain B5
+ 886 chain D5
+ 893 chain A and not water9
+ 896 chain C6
+ 892 chain A7
+ 887 chain D6
+ 897 chain B5
+ 894 chain A and not water9
+ 897 chain C5
+ 893 chain A9
+ 898 chain B7
+ 888 chain D5
+ 895 chain A and not water8
+ 898 chain C6
+ 894 chain A9
+ 899 chain B6
+ 896 chain A and not water8
+ 889 chain D7
+ 899 chain C6
+ 895 chain A8
+ 900 chain B5
+ 897 chain A and not water7
+ 890 chain D6
+ 900 chain C7
+ 896 chain A8
+ 901 chain B6
+ 898 chain A and not water8
+ 891 chain D5
+ 897 chain A7
+ 902 chain B6
+ 901 chain C7
+ 892 chain D7
+ 903 chain B4
+ 898 chain A8
+ 902 chain C6
+ 899 chain A and not water7
+ 893 chain D5
+ 904 chain B5
+ 899 chain A6
+ 903 chain C6
+ 894 chain D7
+ 900 chain A and not water9
+ 905 chain B4
+ 904 chain C6
+ 906 chain B4
+ 901 chain A and not water8
+ 895 chain D7
+ 900 chain A9
+ 905 chain C6
+ 907 chain B5
+ 902 chain A and not water7
+ 896 chain D6
+ 906 chain C7
+ 901 chain A8
+ 907 chain C7
+ 903 chain A and not water7
+ 908 chain B6
+ 902 chain A7
+ 908 chain C7
+ 897 chain D6
+ 904 chain A and not water6
+ 903 chain A7
+ 909 chain C7
+ 909 chain B5
+ 898 chain D6
+ 905 chain A and not water7
+ 904 chain A6
+ 906 chain A and not water8
+ 899 chain D5
+ 910 chain B7
+ 905 chain A8
+ 910 chain C6
+ 911 chain B5
+ 907 chain A and not water7
+ 906 chain A8
+ 900 chain D6
+ 911 chain C5
+ 907 chain A7
+ 912 chain C6
+ 912 chain B5
+ 908 chain A and not water7
+ 901 chain D7
+ 908 chain A7
+ 909 chain A and not water7
+ 902 chain D7
+ 913 chain B4
+ 913 chain C7
+ 909 chain A7
+ 910 chain A and not water8
+ 903 chain D7
+ 914 chain B7
+ 914 chain C6
+ 911 chain A and not water7
+ 904 chain D5
+ 915 chain C7
+ 910 chain A8
+ 915 chain B6
+ 912 chain A and not water7
+ 905 chain D6
+ 916 chain C7
+ 913 chain A and not water7
+ 916 chain B7
+ 911 chain A7
+ 906 chain D6
+ 917 chain C6
+ 917 chain B5
+ 914 chain A and not water7
+ 912 chain A7
+ 907 chain D5
+ 918 chain C7
+ 918 chain B4
+ 915 chain A and not water7
+ 908 chain D5
+ 919 chain C6
+ 913 chain A7
+ 919 chain B7
+ 920 chain C6
+ 916 chain A and not water5
+ 920 chain B8
+ 914 chain A7
+ 909 chain D6
+ 917 chain A and not water6
+ 915 chain A7
+ 921 chain B7
+ 921 chain C6
+ 910 chain D6
+ 918 chain A and not water7
+ 916 chain A5
+ 922 chain B5
+ 919 chain A and not water7
+ 911 chain D6
+ 917 chain A6
+ 922 chain C5
+ 923 chain B5
+ 920 chain A and not water6
+ 912 chain D4
+ 918 chain A7
+ 923 chain C6
+ 913 chain D6
+ 921 chain A and not water8
+ 919 chain A7
+ 924 chain B5
+ 924 chain C5
+ 925 chain B6
+ 922 chain A and not water7
+ 920 chain A6
+ 914 chain D4
+ 925 chain C6
+ 923 chain A and not water7
+ 915 chain D4
+ 926 chain B7
+ 921 chain A8
+ 926 chain C5
+ 916 chain D6
+ 924 chain A and not water6
+ 927 chain B6
+ 927 chain C5
+ 922 chain A7
+ 917 chain D5
+ 925 chain A and not water7
+ 928 chain C6
+ 923 chain A7
+ 928 chain B6
+ 918 chain D5
+ 926 chain A and not water5
+ 929 chain C6
+ 924 chain A6
+ 919 chain D4
+ 927 chain A and not water7
+ 929 chain B6
+ 925 chain A7
+ 930 chain C6
+ 920 chain D5
+ 930 chain B6
+ 928 chain A and not water6
+ 926 chain A5
+ 931 chain C5
+ 931 chain B6
+ 921 chain D4
+ 929 chain A and not water4
+ 927 chain A6
+ 932 chain C5
+ 932 chain B6
+ 922 chain D5
+ 930 chain A and not water5
+ 928 chain A6
+ 933 chain C6
+ 933 chain B6
+ 923 chain D6
+ 931 chain A and not water7
+ 934 chain C5
+ 929 chain A5
+ 934 chain B6
+ 935 chain C6
+ 932 chain A and not water6
+ 930 chain A5
+ 935 chain B7
+ 924 chain D5
+ 933 chain A and not water8
+ 931 chain A7
+ 925 chain D6
+ 936 chain C5
+ 936 chain B6
+ 934 chain A and not water7
+ 932 chain A6
+ 926 chain D6
+ 937 chain C5
+ 937 chain B6
+ 935 chain A and not water6
+ 927 chain D4
+ 933 chain A8
+ 938 chain C6
+ 938 chain B7
+ 936 chain A and not water6
+ 928 chain D5
+ 939 chain B7
+ 939 chain C7
+ 934 chain A7
+ 937 chain A and not water6
+ 929 chain D6
+ 940 chain B7
+ 940 chain C6
+ 935 chain A6
+ 930 chain D5
+ 938 chain A and not water7
+ 941 chain B6
+ 941 chain C6
+ 936 chain A6
+ 931 chain D5
+ 939 chain A and not water8
+ 942 chain B6
+ 942 chain C5
+ 937 chain A6
+ 940 chain A and not water7
+ 932 chain D4
+ 943 chain B6
+ 943 chain C7
+ 941 chain A and not water6
+ 938 chain A7
+ 933 chain D6
+ 944 chain B6
+ 944 chain C5
+ 942 chain A and not water6
+ 939 chain A8
+ 934 chain D5
+ 945 chain C5
+ 945 chain B7
+ 943 chain A and not water4
+ 940 chain A7
+ 935 chain D5
+ 946 chain C6
+ 946 chain B6
+ 944 chain A and not water6
+ 941 chain A5
+ 936 chain D4
+ 947 chain B7
+ 947 chain C7
+ 945 chain A and not water7
+ 942 chain A6
+ 937 chain D5
+ 948 chain B5
+ 948 chain C6
+ 946 chain A and not water6
+ 943 chain A4
+ 949 chain C6
+ 949 chain B4
+ 947 chain A and not water7
+ 938 chain D6
+ 944 chain A6
+ 948 chain A and not water5
+ 939 chain D6
+ 950 chain C6
+ 950  945 chain Bchain A6
+7
+ 949 chain A and not water7
+ 940 chain D5
+ 951 chain C5
+ 950 chain A and not water8
+ 951 chain B5
+ 946 chain A6
+ 941 chain D5
+ 951 chain A and not water7
+ 952 chain C7
+ 952 chain B4
+ 947 chain A7
+ 953 chain C6
+ 952 chain A and not water7
+ 942 chain D5
+ 948 chain A5
+ 953 chain B6
+ 954 chain C5
+ 953 chain A and not water6
+ 949 chain A7
+ 943 chain D6
+ 954 chain B6
+ 950 chain A8
+ 954 chain A and not water7
+ 955 chain C6
+ 944 chain D6
+ 955 chain B7
+ 951 chain A7
+ 945 chain D7
+ 956 chain B6
+ 952 chain A7
+ 955 chain A and not water8
+ 956 chain C6
+ 946 chain D4
+ 957 chain B6
+ 953 chain A6
+ 956 chain A and not water8
+ 947 chain D5
+ 957 chain C5
+ 958 chain B7
+ 954 chain A7
+ 957 chain A and not water6
+ 948 chain D5
+ 959 chain B6
+ 958 chain C6
+ 955 chain A8
+ 949 chain D6
+ 958 chain A and not water7
+ 960 chain B5
+ 959 chain C6
+ 950 chain D5
+ 959 chain A and not water4
+ 956 chain A8
+ 960 chain C6
+ 961 chain B5
+ 951 chain D7
+ 960 chain A and not water8
+ 962 chain B7
+ 957 chain A6
+ 952 chain D6
+ 961 chain C6
+ 953 chain D5
+ 961 chain A and not water8
+ 958 chain A7
+ 962 chain C5
+ 963 chain B7
+ 954 chain D5
+ 959 chain A4
+ 963 chain C6
+ 955 chain D5
+ 964 chain B7
+ 962 chain A and not water8
+ 960 chain A8
+ 956 chain D4
+ 963 chain A and not water7
+ 965 chain B7
+ 964 chain C5
+ 957 chain D5
+ 964 chain A and not water7
+ 961 chain A8
+ 966 chain B6
+ 965 chain C5
+ 958 chain D5
+ 967 chain B6
+ 962 chain A8
+ 965 chain A and not water6
+ 966 chain C5
+ 959 chain D6
+ 968 chain B6
+ 967 chain C5
+ 963 chain A7
+ 966 chain A and not water6
+ 969 chain B8
+ 960 chain D5
+ 968 chain C5
+ 961 chain D5
+ 970 chain B8
+ 967 chain A and not water8
+ 964 chain A7
+ 962 chain D4
+ 969 chain C6
+ 968 chain A and not water7
+ 965 chain A6
+ 971 chain B7
+ 963 chain D5
+ 969 chain A and not water7
+ 970 chain C6
+ 966 chain A6
+ 972 chain B7
+ 964 chain D4
+ 970 chain A and not water8
+ 971 chain C7
+ 967 chain A8
+ 973 chain B7
+ 965 chain D6
+ 971 chain A and not water6
+ 968 chain A7
+ 974 chain B8
+ 966 chain D6
+ 972 chain A and not water7
+ 972 chain C6
+ 975 chain B6
+ 969 chain A7
+ 967 chain D6
+ 968 chain D6
+ 976 chain B6
+ 973 chain A and not water7
+ 973 chain C6
+ 970 chain A8
+ 974 chain C6
+ 969 chain D5
+ 974 chain A and not water5
+ 977 chain B5
+ 971 chain A6
+ 975 chain C6
+ 970 chain D6
+ 978 chain B7
+ 975 chain A and not water7
+ 972 chain A7
+ 979 chain B6
+ 976 chain C7
+ 973 chain A7
+ 976 chain A and not water6
+ 971 chain D5
+ 980 chain B6
+ 977 chain C7
+ 974 chain A5
+ 977 chain A and not water5
+ 972 chain D7
+ 981 chain B7
+ 975 chain A7
+ 978 chain A and not water6
+ 973 chain D4
+ 978 chain C6
+ 982 chain B7
+ 976 chain A6
+ 979 chain A and not water7
+ 974 chain D5
+ 977 chain A5
+ 979 chain C5
+ 980 chain A and not water6
+ 975 chain D7
+ 978 chain A6
+ 983 chain B5
+ 980 chain C6
+ 981 chain A and not water6
+ 976 chain D8
+ 979 chain A7
+ 984 chain B5
+ 981 chain C7
+ 977 chain D7
+==> trajectory done
+ 980 chain A6
+ 985 chain B4
+ 982 chain C7
+ 982 chain A and not water7
+ 983 chain C6
+ 978 chain D7
+ 981 chain A6
+ 983 chain A and not water7
+ 986 chain B6
+ 982 chain A7
+ 979 chain D7
+ 984 chain C6
+ 987 chain B6
+ 984 chain A and not water7
+ 983 chain A6
+ 985 chain C6
+ 980 chain D7
+ 985 chain A and not water7
+ 988 chain B6
+ 984 chain A6
+ 986 chain C6
+ 981 chain D6
+ 986 chain A and not water6
+ 985 chain A7
+ 989 chain B6
+ 987 chain C7
+ 982 chain D5
+ 987 chain A and not water6
+ 986 chain A6
+ 990 chain B6
+ 983 chain D5
+ 988 chain C6
+ 988 chain A and not water6
+ 987 chain A6
+ 984 chain D7
+ 991 chain B5
+ 989 chain C6
+ 985 chain D6
+ 989 chain A and not water6
+ 988 chain A6
+ 992 chain B5
+ 990 chain C7
+ 986 chain D5
+ 990 chain A and not water7
+ 989 chain A6
+ 991 chain C7
+ 993 chain B5
+ 987 chain D6
+ 991 chain A and not water6
+ 990 chain A7
+ 992 chain C6
+ 994 chain B6
+ 988 chain D7
+ 991 chain A6
+ 992 chain A and not water5
+ 995 chain B5
+ 993 chain C7
+ 992 chain A5
+ 989 chain D6
+ 993 chain A and not water7
+ 993 chain A7
+ 996 chain B5
+ 990 chain D6
+ 994 chain C6
+ 994 chain A and not water6
+ 997 chain B6
+ 994 chain A6
+ 991 chain D5
+ 998 chain B7
+ 995 chain C7
+ 995 chain A and not water6
+ 995 chain A6
+ 999 chain B7
+#	Now computing MSD for chain B for 1000 frames...
+ 992 chain D5
+ 996 chain C7
+ 996 chain A6
+ 996 chain A and not water6
+ 993 chain D5
+ 997 chain A7
+ 997 chain A and not water6
+ 997 chain C7
+ 998 chain A7
+ 994 chain D7
+ 998 chain A and not water5
+ 998 chain C6
+ 999 chain A7
+#	Now computing MSD for chain A for 1000 frames...
+ 999 chain A and not water7
+#	Now computing MSD for chain A and not water for 1000 frames...
+ 995 chain D8
+ 999 chain C6
+#	Now computing MSD for chain C for 1000 frames...
+ 996 chain D7
+ 997 chain D7
+ 998 chain D6
+ 999 chain D7
+#	Now computing MSD for chain D for 1000 frames...
+Trajectory processing finished!
